@@ -17,10 +17,11 @@ It helps keep your downloads or working directories **clean and structured** usi
 
 ## 💻 Technologies Used
 
-- Python 3.x
-- OS Module
-- shutil Module
-- tkinter
+- **Python 3.x**
+- **OS Module** – Interacts with the file system and directory structure.
+- **Shutil Module** – Handles moving and organizing files.
+- **Tkinter** – Provides a simple GUI to select folders and run the script visually.
+
 
 ---
 
