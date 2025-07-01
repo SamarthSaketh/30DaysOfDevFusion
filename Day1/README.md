@@ -62,11 +62,11 @@ Downloads/
 
 ```
 Downloads/
-├── JPG/
+├── Images/
 │   └── image1.jpg
-├── PDF/
+├── Documents/
 │   └── doc1.pdf
-├── MP3/
+├── Audio/
 │   └── song1.mp3
 ```
 
