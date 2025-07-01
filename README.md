@@ -23,38 +23,39 @@ To level up my development skills by building **real-world, hands-on projects** 
 
 ## 📂 Project Tracker
 
-| Day | Project Title              | Technologies Used               | Status     | LinkedIn Post | Date        | Day        |
-|-----|----------------------------|----------------------------------|------------|----------------|-------------|------------|
-| 1   | File Organizer             | Python, Tkinter, OS, shutil      | ✅ Done     | [View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-python-tkinter-activity-7345855693108690944-xASb?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) | 01 July 2025 | Tuesday    |
-| 2   | Age Calculator             | JavaScript, HTML, CSS            | Coming 🔜   |                |             |            |
-| 3   | Password Generator         | C#                                | Coming 🔜   |                |             |            |
-| 4   | Weather App                | .NET, API                         |Coming 🔜            |                |             |            |
-| 5   | To-Do App                  | JavaScript, HTML, CSS            |          Coming 🔜  |                |             |            |
-| 6   | Markdown Previewer        | React, JavaScript                |            |                |             |            |
-| 7   | BMI Calculator             | Python                            |            |                |             |            |
-| 8   | Text Summarizer           | Python, NLP, Hugging Face        |            |                |             |            |
-| 9   | Unit Converter             | C#                                |            |                |             |            |
-| 10  | Notes App                  | .NET, Blazor                      |            |                |             |            |
-| 11  | Expense Tracker            | JavaScript, Chart.js              |            |                |             |            |
-| 12  | Speech to Text App        | Python, SpeechRecognition        |            |                |             |            |
-| 13  | Blog API                   | Node.js, Express, MongoDB        |            |                |             |            |
-| 14  | Chatbot                    | Python, Flask, NLP               |            |                |             |            |
-| 15  | Image Gallery              | JavaScript, HTML, CSS            |            |                |             |            |
-| 16  | PDF Merger                 | Python, PyPDF2                    |            |                |             |            |
-| 17  | Calculator App             | C#                                |            |                |             |            |
-| 18  | Quiz App                   | JavaScript                        |            |                |             |            |
-| 19  | Portfolio Website          | HTML, CSS, JavaScript             |            |                |             |            |
-| 20  | Login Auth System          | Node.js, Express, MongoDB        |            |                |             |            |
-| 21  | Sentiment Analysis         | Python, Scikit-learn, NLTK       |            |                |             |            |
-| 22  | Random Quote Generator     | JavaScript, HTML, CSS            |            |                |             |            |
-| 23  | E-commerce Product Page    | React, TailwindCSS               |            |                |             |            |
-| 24  | Iris Flower ML App         | Python, Scikit-learn              |            |                |             |            |
-| 25  | Book Inventory             | .NET Core, SQL Server             |            |                |             |            |
-| 26  | Chat App                   | Node.js, Socket.IO                |            |                |             |            |
-| 27  | Web Scraper                | Python, BeautifulSoup            |            |                |             |            |
-| 28  | Currency Converter         | JavaScript, API                   |            |                |             |            |
-| 29  | Spam Classifier            | Python, Sklearn                   |            |                |             |            |
-| 30  | Project Showcase Site      | HTML, CSS, JavaScript             |            |                |             |            |
+| Day | Project Title              | Technologies Used               | Status           | LinkedIn Post | Date        | Day        |
+|-----|----------------------------|----------------------------------|------------------|----------------|-------------|------------|
+| 1   | File Organizer             | Python, Tkinter, OS, shutil      | ✅ Done          | [View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-python-tkinter-activity-7345855693108690944-xASb?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) | 01 July 2025 | Tuesday    |
+| 2   | Age Calculator             | JavaScript, HTML, CSS            | Coming Soon 🔜   |                |             |            |
+| 3   | Password Generator         | C#                                | Coming Soon 🔜   |                |             |            |
+| 4   | Weather App                | .NET, API                         | Coming Soon 🔜   |                |             |            |
+| 5   | To-Do App                  | JavaScript, HTML, CSS            | Coming Soon 🔜   |                |             |            |
+| 6   | Markdown Previewer         | React, JavaScript                 | Coming Soon 🔜   |                |             |            |
+| 7   | BMI Calculator             | Python                            | Coming Soon 🔜   |                |             |            |
+| 8   | Text Summarizer            | Python, NLP, Hugging Face         | Coming Soon 🔜   |                |             |            |
+| 9   | Unit Converter             | C#                                | Coming Soon 🔜   |                |             |            |
+| 10  | Notes App                  | .NET, Blazor                      | Coming Soon 🔜   |                |             |            |
+| 11  | Expense Tracker            | JavaScript, Chart.js              | Coming Soon 🔜   |                |             |            |
+| 12  | Speech to Text App         | Python, SpeechRecognition         | Coming Soon 🔜   |                |             |            |
+| 13  | Blog API                   | Node.js, Express, MongoDB         | Coming Soon 🔜   |                |             |            |
+| 14  | Chatbot                    | Python, Flask, NLP                | Coming Soon 🔜   |                |             |            |
+| 15  | Image Gallery              | JavaScript, HTML, CSS             | Coming Soon 🔜   |                |             |            |
+| 16  | PDF Merger                 | Python, PyPDF2                    | Coming Soon 🔜   |                |             |            |
+| 17  | Calculator App             | C#                                | Coming Soon 🔜   |                |             |            |
+| 18  | Quiz App                   | JavaScript                        | Coming Soon 🔜   |                |             |            |
+| 19  | Portfolio Website          | HTML, CSS, JavaScript             | Coming Soon 🔜   |                |             |            |
+| 20  | Login Auth System          | Node.js, Express, MongoDB         | Coming Soon 🔜   |                |             |            |
+| 21  | Sentiment Analysis         | Python, Scikit-learn, NLTK        | Coming Soon 🔜   |                |             |            |
+| 22  | Random Quote Generator     | JavaScript, HTML, CSS             | Coming Soon 🔜   |                |             |            |
+| 23  | E-commerce Product Page    | React, TailwindCSS                | Coming Soon 🔜   |                |             |            |
+| 24  | Iris Flower ML App         | Python, Scikit-learn              | Coming Soon 🔜   |                |             |            |
+| 25  | Book Inventory             | .NET Core, SQL Server             | Coming Soon 🔜   |                |             |            |
+| 26  | Chat App                   | Node.js, Socket.IO                | Coming Soon 🔜   |                |             |            |
+| 27  | Web Scraper                | Python, BeautifulSoup             | Coming Soon 🔜   |                |             |            |
+| 28  | Currency Converter         | JavaScript, API                   | Coming Soon 🔜   |                |             |            |
+| 29  | Spam Classifier            | Python, Sklearn                   | Coming Soon 🔜   |                |             |            |
+| 30  | Project Showcase Site      | HTML, CSS, JavaScript             | Coming Soon 🔜   |                |             |            |
+
 
 
 
