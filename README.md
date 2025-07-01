@@ -23,14 +23,15 @@ To level up my development skills by building **real-world, hands-on projects** 
 
 ## 📂 Project Tracker
 
-| Day | Project Title            | Technologies Used               | Status     |
-|-----|--------------------------|----------------------------------|------------|
-| 1   | [File Organizer](./Day1) | Python, Tkinter, OS, shutil      | ✅ Done     |
-| 2   |                          |                                  | 🔜 Coming   |
-| 3   |                          |                                  | 🔜 Coming   |
-| 4   |                          |                                  |            |
-| ... |                          |                                  |            |
-| 30  |                          |                                  |            |
+| Day | Project Title            | Technologies Used               | Status     | LinkedIn Post |
+|-----|--------------------------|----------------------------------|------------|----------------|
+| 1   | [File Organizer](./Day1) | Python, Tkinter, OS, shutil      | ✅ Done     | [View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-python-tkinter-activity-7345855693108690944-xASb?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |
+| 2   |                          |                                  | 🔜 Coming   |                |
+| 3   |                          |                                  | 🔜 Coming   |                |
+| 4   |                          |                                  |            |                |
+| ... |                          |                                  |            |                |
+| 30  |                          |                                  |            |                |
+
 
 ---
 
