@@ -2,7 +2,7 @@
 
 ## 📝 Description
 This project is a **File Organizer** that automatically sorts files in a directory into folders based on their file types (like `.pdf`, `.jpg`, `.mp3`, etc.).  
-It helps keep your downloads or working directories **clean and structured** using a simple Python script.
+It helps keep to your downloads or working directories **clean and structured** using a simple Python script.
 
 ---
 
