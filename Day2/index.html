@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Age Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <div class="dobcontainer">
+      <h1>🎯 Smart Age Tracker</h1>
+      <form id="ageForm">
+        <label for="dob">Enter your Date of Birth:</label>
+        <input type="date" id="dob" required />
+        <button type="submit">Calculate Age</button>
+      </form>
+    </div>
+
+    <div class="container">
+      <div class="toggle-theme">
+        <label class="switch">
+          <input type="checkbox" id="themeToggle">
+          <span class="slider"></span>
+        </label>
+      </div>
+
+    <div class="cards" id="cards" style="display: none;">
+        <div class="card" id="ageCard"></div>
+        <div class="card" id="birthdayCard"></div>
+        <div class="card" id="timeCard"></div>
+        <div class="card" id="countdownCard">
+            <div class="countdown-grid">
+                <div class="countdown-unit">
+                    <div class="number" id="cd-days">00</div>
+                    <div class="label">Days</div>
+                </div>
+                <div class="countdown-unit">
+                    <div class="number" id="cd-hours">00</div>
+                    <div class="label">Hours</div>
+                </div>
+                <div class="countdown-unit">
+                    <div class="number" id="cd-minutes">00</div>
+                    <div class="label">Minutes</div>
+                </div>
+                <div class="countdown-unit">
+                    <div class="number" id="cd-seconds">00</div>
+                    <div class="label">Seconds</div>
+                </div>
+            </div>
+        </div>
+        <div class="card" id="factCard"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
