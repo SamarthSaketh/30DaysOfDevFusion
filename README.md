@@ -28,7 +28,7 @@ To level up my development skills by building **real-world, hands-on projects** 
 |-----|----------------------------|----------------------------------|------------------|----------------|-------------|------------|
 | 1   | File Organizer             | Python, Tkinter, OS, shutil      | ✅ Done          | [View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-python-tkinter-activity-7345855693108690944-xASb?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) | 01 July 2025 | Tuesday    |
 | 2   | Age Calculator             | JavaScript, HTML, CSS            | ✅ Done   |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-javascript-webdevelopment-activity-7346235877301395456-_70z?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA)                |             |            |
-| 3   | Password Generator         | C#                                | Coming Soon 🔜   |                |             |            |
+| 3   | Password Generator         | C#                                | Coming Soon 🔜   |                | 02 July 2025|Wednesday            |
 | 4   | Weather App                | .NET, API                         | Coming Soon 🔜   |                |             |            |
 | 5   | To-Do App                  | JavaScript, HTML, CSS            | Coming Soon 🔜   |                |             |            |
 | 6   | Markdown Previewer         | React, JavaScript                 | Coming Soon 🔜   |                |             |            |
