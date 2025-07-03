@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\30DaysOfDevFusion\\Day3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE2712ED-66EC-464E-AF67-495C1B5BF610}|Day3\\Day3.csproj|d:\\30daysofdevfusion\\day3\\day3\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DE2712ED-66EC-464E-AF67-495C1B5BF610}|Day3\\Day3.csproj|solutionrelative:day3\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE2712ED-66EC-464E-AF67-495C1B5BF610}|Day3\\Day3.csproj|d:\\30daysofdevfusion\\day3\\day3\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE2712ED-66EC-464E-AF67-495C1B5BF610}|Day3\\Day3.csproj|solutionrelative:day3\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\30DaysOfDevFusion\\Day3\\Day3\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "Day3\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\30DaysOfDevFusion\\Day3\\Day3\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "Day3\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwBYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-03T17:59:30.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\30DaysOfDevFusion\\Day3\\Day3\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Day3\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\30DaysOfDevFusion\\Day3\\Day3\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Day3\\Pages\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAcAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-03T16:39:31.601Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
