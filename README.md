@@ -64,13 +64,13 @@ To level up my development skills by building **real-world, hands-on projects** 
 
 ## 💼 Skills Covered
 
-- 🔹 Responsive Web Design (HTML, CSS, JS)
-- 🔹 DOM Manipulation & API Integration
-- 🔹 Python Scripting & Automation
-- 🔹 Machine Learning Models & Training
-- 🔹 C# & .NET Core APIs
-- 🔹 Database Integration (MongoDB, SQLite, PostgreSQL)
-- 🔹 Deployment & Git Version Control
+-  Responsive Web Design (HTML, CSS, JS)
+-  DOM Manipulation & API Integration
+-  Python Scripting & Automation
+-  Machine Learning Models & Training
+-  C# & .NET Core APIs
+-  Database Integration (MongoDB, SQLite, PostgreSQL)
+-  Deployment & Git Version Control
 
 ---
 
