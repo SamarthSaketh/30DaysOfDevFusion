@@ -18,7 +18,7 @@ This app lets you manage tasks with **due dates**, **recurring frequencies**, an
 - 💾 Save tasks in **LocalStorage** for offline persistence  
 - 📤 Export & 📥 Import tasks via JSON  
 - 🗑️ Edit / Delete / Complete tasks with a click  
-- 🎙️ *(Optional)* Voice input for adding tasks
+
 
 ---
 
