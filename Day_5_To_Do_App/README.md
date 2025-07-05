@@ -94,4 +94,3 @@ This app lets you manage tasks with **due dates**, **recurring frequencies**, an
 1. Clone/download the repo  
 2. Open `index.html` in your browser  
 3. Start adding and managing your tasks!
-```
