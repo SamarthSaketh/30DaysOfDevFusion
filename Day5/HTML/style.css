@@ -1,0 +1,127 @@
+:root {
+  --bg: #f0f4f8;
+  --text: #000;
+  --card: #fff;
+  --primary: #4caf50;
+}
+
+body.dark {
+  --bg: #1e1e2f;
+  --text: #fff;
+  --card: #2c2c3e;
+  --primary: #26a69a;
+}
+
+body.blue {
+  --bg: #e3f2fd;
+  --text: #0d47a1;
+  --card: #ffffff;
+  --primary: #2196f3;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  margin: 0;
+  padding: 0;
+  transition: 0.3s;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: var(--card);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings {
+  display: flex;
+  gap: 10px;
+}
+
+.todo-input {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+input, select, button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#taskInput {
+  flex: 1 1 50%;
+}
+
+button {
+  background: var(--primary);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0,0,0,0.03);
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.task.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.task .meta {
+  font-size: 12px;
+  color: gray;
+}
+
+.filters, .export-import {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.dashboard {
+  background: rgba(0, 0, 0, 0.05);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.calendar {
+  margin-top: 20px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.03);
+  border-radius: 6px;
+}
+
+.calendar .calendar-date {
+  margin-bottom: 10px;
+}

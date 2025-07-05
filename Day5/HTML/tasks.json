@@ -1,0 +1,32 @@
+[
+  {
+    "text": "Buy groceries 🛒",
+    "date": "2025-07-06",
+    "priority": "medium",
+    "done": false
+  },
+  {
+    "text": "Finish 30DaysOfDevFusion Day 6 💻",
+    "date": "2025-07-06",
+    "priority": "high",
+    "done": false
+  },
+  {
+    "text": "Call mom 📞",
+    "date": "2025-07-07",
+    "priority": "low",
+    "done": true
+  },
+  {
+    "text": "Workout for 30 mins 🏋️",
+    "date": "2025-07-07",
+    "priority": "medium",
+    "done": false
+  },
+  {
+    "text": "Read a book 📚",
+    "date": "2025-07-08",
+    "priority": "low",
+    "done": false
+  }
+]
