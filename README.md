@@ -20,7 +20,7 @@ To level up my development skills by building **real-world, hands-on projects** 
 🏁 **Duration**: 30 Days — 30 Projects
 
 ---
-![Progress](https://img.shields.io/badge/Progress-3%2F30-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-4%2F30-brightgreen)
 
 ## 📂 Project Tracker
 
