@@ -1,14 +1,10 @@
-Sure! Here's your **`README.md`** file content for **Day 4 – Weather App**. You can copy and save it directly in your `Day4` project folder as `README.md`:
 
----
-
-````markdown
 # 📅 Day 4 – Weather App
 
 ## 📝 Description  
 This project is a sleek and modern **Weather App** built using **ASP.NET Razor Pages** and the **WeatherAPI**.  
 It fetches and displays **current weather**, **3-day forecast**, and a **temperature trend chart**, supporting both **manual city search** and **geolocation-based weather**.  
-With added dark mode, charts, and maps — it brings a complete weather dashboard to life!
+With added dark mode, charts, and maps — it brings a complete weather dashboard to life
 
 ---
 
