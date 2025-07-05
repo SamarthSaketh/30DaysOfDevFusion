@@ -1,0 +1,26 @@
+﻿@page
+@model Day4.Pages.IndexModel
+@{
+    ViewData["Title"] = "Weather App";
+}
+<link rel="stylesheet" href="~/css/site.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<div class="container fade-in">
+    <h1>🌤️ Weather App</h1>
+
+    <div class="search">
+        <input type="text" id="city" placeholder="Enter city name..." onkeypress="handleEnter(event)" />
+        <button onclick="getWeather()">🔍 Search</button>
+        <button onclick="getLocation()">📍 Use Current Location</button>
+        <button onclick="toggleTheme()">🌓 Theme</button>
+    </div>
+
+    <div id="weather" class="weather-info"></div>
+
+    <canvas id="weatherChart" width="600" height="300"></canvas>
+</div>
+
+<script src="~/js/site.js" defer></script>

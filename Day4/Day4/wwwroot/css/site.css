@@ -1,0 +1,158 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f8ff;
+    margin: 2rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark {
+    background-color: #1e1e2f;
+    color: white;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+    .search input {
+        padding: 0.6rem;
+        width: 50%;
+        min-width: 200px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+    }
+
+    .search button {
+        padding: 0.6rem 1rem;
+        border: none;
+        background: #0077b6;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+        .search button:hover {
+            background: #005f87;
+        }
+
+.weather-info {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.forecast {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.card {
+    padding: 1rem;
+    border-radius: 1rem;
+    background: #e0f7fa;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+    .card img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .card h4 {
+        margin-bottom: 0.5rem;
+    }
+
+.dark .card {
+    background: #2c2c54;
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.spinner {
+    border: 5px solid #eee;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Chart & Map */
+canvas {
+    margin-top: 2rem;
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+#map {
+    margin-top: 2rem;
+    border: 2px solid #ddd;
+}
+.summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem auto;
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.summary-item {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 0.8rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    font-size: 0.95rem;
+}
+
+.dark .summary-grid {
+    background: #29293d;
+}
+
+.dark .summary-item {
+    background: #2e2e48;
+    color: #fff;
+}
