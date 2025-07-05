@@ -4,7 +4,7 @@
 ## 📝 Description  
 This project is a sleek and modern **Weather App** built using **ASP.NET Razor Pages** and the **WeatherAPI**.  
 It fetches and displays **current weather**, **3-day forecast**, and a **temperature trend chart**, supporting both **manual city search** and **geolocation-based weather**.  
-With added dark mode, charts, and maps — it brings a complete weather dashboard to life!
+With added dark mode, charts, and maps — it brings a complete weather dashboard to life
 
 ---
 
