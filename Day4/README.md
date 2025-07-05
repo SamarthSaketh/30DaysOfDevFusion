@@ -1,8 +1,4 @@
-Sure! Here's your **`README.md`** file content for **Day 4 – Weather App**. You can copy and save it directly in your `Day4` project folder as `README.md`:
 
----
-
-````markdown
 # 📅 Day 4 – Weather App
 
 ## 📝 Description  
