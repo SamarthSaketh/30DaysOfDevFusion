@@ -1,0 +1,107 @@
+:root {
+  --bg: #ffffff;
+  --text: #111111;
+  --card: #f4f4f4;
+  --btn-bg: #e0e0e0;
+  --btn-hover: #cccccc;
+}
+
+.dark {
+  --bg: #181818;
+  --text: #f0f0f0;
+  --card: #2a2a2a;
+  --btn-bg: #333333;
+  --btn-hover: #444444;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: var(--card);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+nav button {
+  background: var(--btn-bg);
+  border: none;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: background 0.2s ease;
+}
+
+nav button:hover {
+  background: var(--btn-hover);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.tool-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.tool-card {
+  background: var(--card);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.tool-card:hover {
+  transform: translateY(-4px);
+}
+input, textarea, select, button {
+  color: var(--text);
+  background-color: var(--btn-bg);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid #888;
+}
+:root {
+  --bg: #ffffff;
+  --text: #111111;
+  --card: #f4f4f4;
+  --btn-bg: #eaeaea;
+  --btn-hover: #dcdcdc;
+}
+
+.dark {
+  --bg: #121212;
+  --text: #f0f0f0;
+  --card: #1e1e1e;
+  --btn-bg: #2c2c2c;
+  --btn-hover: #3a3a3a;
+}
+.output {
+  background-color: var(--card);
+  color: var(--text);
+  padding: 1rem;
+  border-radius: 6px;
+  white-space: pre-wrap;
+  overflow-x: auto;
+  margin-top: 1rem;
+  font-family: monospace;
+}

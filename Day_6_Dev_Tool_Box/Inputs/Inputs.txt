@@ -1,0 +1,42 @@
+🧩 JSON Formatter
+-----------------
+{"name":"Sam","age":25,"skills":["JS","Python"]}
+
+
+🔐 JWT Decoder
+--------------
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2FtIiwiaWQiOjEyMzQ1fQ.vN5uQEsVxCrTWCIzN6FiESXtBK8LRU1-rXRwZ5qKq40
+
+
+🧪 Base64 Encoder/Decoder
+--------------------------
+Hello, World!
+
+
+🔍 Regex Tester
+---------------
+Pattern: \b\w{4}\b  
+Text: This test will find only four word size like this one okay!
+
+
+🧾 HTML ↔ Markdown Converter
+----------------------------
+HTML → Markdown:
+<h2>Hello</h2><p>This is <strong>bold</strong> text.</p>
+
+Markdown → HTML:
+## Welcome  
+This is **bold** and _italic_.
+
+
+📤 JSON → CSV Converter
+------------------------
+[
+  { "name": "Alice", "age": 28 },
+  { "name": "Bob", "age": 34 }
+]
+
+
+📚 Text Case Converter
+----------------------
+hello world from dev toolbox
