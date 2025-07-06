@@ -104,3 +104,4 @@ Each day I will:
 This repo will be updated daily with cool, practical, and open-source-friendly projects!  
 Let’s build something amazing — one project at a time. 💪🔥
 
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=SamarthSaketh&theme=radical&hide_border=true&include_all_commits=false&count_private=true&layout=compact)
