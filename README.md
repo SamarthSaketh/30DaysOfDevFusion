@@ -31,7 +31,7 @@ To level up my development skills by building **real-world, hands-on projects** 
 | 3   | [📁 Password Generator](./Day_3_Password_Generator) | C# | ✅ Done | [View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-devfusion-day3-activity-7346623403207905283-2GcA?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) | 03 July 2025 | Thursday |
 | 4   | [📁 Weather App](./Day_4_Weather_App) | .NET, API | ✅ Done | [View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-dotnet-weatherapp-activity-7347169235334287361-M-m-?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) | 04 July 2025 | Friday |
 | 5   | [📁 To-Do App](./Day_5_To_Do_App) | JavaScript, HTML, CSS | ✅ Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-devfusion-day5-activity-7347319652823273472-1vhp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |05 July 2025  |Saturday |
-| 6   | Markdown Previewer | React, JavaScript | Coming Soon 🔜 | | | |
+| 6   | [📁 Dev Tool Box](./Day_6_Dev_Tool_Box) | React, JavaScript | ✅ Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-devfusion-day6-activity-7347709090040582145-FhXr?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) | | |
 | 7   | BMI Calculator | Python | Coming Soon 🔜 | | | |
 | 8   | Text Summarizer | Python, NLP, Hugging Face | Coming Soon 🔜 | | | |
 | 9   | Unit Converter | C# | Coming Soon 🔜 | | | |
