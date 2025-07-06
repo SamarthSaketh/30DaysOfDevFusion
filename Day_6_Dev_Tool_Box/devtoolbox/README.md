@@ -84,43 +84,8 @@ src/
    [http://localhost:3000](http://localhost:3000)
 
 ---
+````
 
-## 🧠 Example Inputs (for testing tools)
-
-> 📥 Paste the following into appropriate tools during testing:
-
-* **JSON Formatter:**
-
-  ```json
-  { "name": "DevToolbox", "tools": 10 }
-  ```
-
-* **JWT Decoder:**
-
-  ```
-  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiZGV2ZWxvcGVyIn0.abc123
-  ```
-
-* **Regex Tester Pattern:**
-
-  ```
-  \b\w{4,}\b
-  ```
-
-* **HTML → Markdown:**
-
-  ```html
-  <h1>Hello</h1><p>This is HTML</p>
-  ```
-
-* **Markdown → HTML:**
-
-  ```md
-  ## Title  
-  * Item 1  
-  ```
-
----
 
 ## 📌 Completed on: July 6, 2025
 
