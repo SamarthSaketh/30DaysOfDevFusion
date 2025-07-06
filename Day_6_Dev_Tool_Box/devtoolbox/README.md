@@ -24,8 +24,7 @@ Includes:
 
 - 🌗 Light/Dark Theme Toggle  
 - 🔗 Easy navigation with Button-based Navbar  
-- 📱 Fully responsive and clean UI  
-- 💾 External CSS styling (no inline clutter)
+
 
 ---
 
@@ -65,27 +64,21 @@ src/
 
 ````
 
----
+
 
 ## ⚙️ Setup & Usage
 
 1. Clone the repository  
 2. Install dependencies  
-   ```bash
-   npm install
 ````
-
+   npm install 
+````
 3. Start the app
-
-   ```bash
+````
    npm start
-   ```
+````
 4. Open in browser:
    [http://localhost:3000](http://localhost:3000)
-
----
-````
-
 
 ## 📌 Completed on: July 6, 2025
 
