@@ -20,7 +20,7 @@ To level up my development skills by building **real-world, hands-on projects** 
 🏁 **Duration**: 30 Days — 30 Projects
 
 ---
-![Progress](https://img.shields.io/badge/Progress-6%2F30-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-7%2F30-brightgreen)
 
 ## 📂 Project Tracker
 
@@ -32,7 +32,7 @@ To level up my development skills by building **real-world, hands-on projects** 
 | 4   | [📁 Weather App](./Day_4_Weather_App) | .NET, API | ✅ Done | [View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-dotnet-weatherapp-activity-7347169235334287361-M-m-?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) | 04 July 2025 | Friday |
 | 5   | [📁 To-Do App](./Day_5_To_Do_App) | JavaScript, HTML, CSS | ✅ Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-devfusion-day5-activity-7347319652823273472-1vhp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |05 July 2025  |Saturday |
 | 6   | [📁 Dev Tool Box](./Day_6_Dev_Tool_Box) | React, JavaScript | ✅ Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-devfusion-day6-activity-7347709090040582145-FhXr?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |06 July 2025 |Sunday |
-| 7   | BMI Calculator | Python | Coming Soon 🔜 | | | |
+| 7   |[📁 BMI Calculator](./Day_7_BMI_Calculator) | Python | ✅ Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-python-bmicalculator-activity-7348037130608132096-yU7A?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |07 July 2025 |Monday |
 | 8   | Text Summarizer | Python, NLP, Hugging Face | Coming Soon 🔜 | | | |
 | 9   | Unit Converter | C# | Coming Soon 🔜 | | | |
 | 10  | Notes App | .NET, Blazor | Coming Soon 🔜 | | | |
