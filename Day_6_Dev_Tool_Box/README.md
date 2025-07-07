@@ -2,7 +2,7 @@
 # Day 6 - DevToolbox – All-in-One Developer Toolkit
 
 ## 📝 Description
-**DevToolbox** is a sleek and powerful **developer productivity suite** that bundles multiple essential tools into a single React app.  
+**DevToolbox** is a sleek and very powerful **developer productivity suite** that bundles multiple essential tools into a single React app.  
 Whether you're working with JSON, decoding JWTs, generating UUIDs, testing regex patterns, or converting text — DevToolbox has you covered.
 
 ---
