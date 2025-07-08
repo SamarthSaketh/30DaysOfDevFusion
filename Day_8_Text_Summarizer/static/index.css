@@ -1,0 +1,64 @@
+/* ========== Global ========== */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ========== Light Theme ========== */
+body.light-mode {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+body.light-mode .output {
+  background-color: #ffffff;
+  color: #212529;
+  border-color: #ced4da;
+}
+
+/* ========== Dark Theme ========== */
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+body.dark-mode .output {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+  border-color: #444;
+}
+
+/* ========== Common Elements ========== */
+textarea,
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  background-color: inherit;
+  color: inherit;
+  resize: vertical;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* ========== Output Box ========== */
+.output {
+  margin-top: 20px;
+  padding: 10px;
+  border-left: 4px solid #0d6efd;
+  border: 1px solid;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  white-space: pre-wrap;
+  font-size: 1rem;
+  line-height: 1.6;
+}
