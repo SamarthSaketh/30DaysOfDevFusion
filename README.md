@@ -71,7 +71,7 @@ To level up my development skills by building **real-world, hands-on projects** 
 -  Python Scripting & Automation
 -  Machine Learning Models & Training
 -  C# & .NET Core APIs
--  Database Integration (MongoDB, SQLite, PostgreSQL)
+-  Database Integration
 -  Deployment & Git Version Control
 
 ---
@@ -79,7 +79,7 @@ To level up my development skills by building **real-world, hands-on projects** 
 ## 🧠 Daily Workflow
 
 Each day I will:
-1. Create a folder `DayX/`
+1. Create a folder `Day_X_Project_Name`
 2. Build and test the project
 3. Add a `README.md` inside that folder
 4. Commit and push to GitHub
