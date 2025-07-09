@@ -1,3 +1,4 @@
+![💻30DaysOfDevFusionLogo](https://github.com/user-attachments/assets/141b6c8d-cf49-41ab-ac9d-98ce6e25a6f1)
 # 🚀 30DaysOfDevFusion Challenge
 
 Welcome to my **#30DaysOfDevFusion** challenge!  
@@ -20,7 +21,7 @@ To level up my development skills by building **real-world, hands-on projects** 
 🏁 **Duration**: 30 Days — 30 Projects
 
 ---
-![Progress](https://img.shields.io/badge/Progress-7%2F30-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-8%2F30-brightgreen)
 
 ## 📂 Project Tracker
 
@@ -34,7 +35,7 @@ To level up my development skills by building **real-world, hands-on projects** 
 | 6   | [📁 Dev Tool Box](./Day_6_Dev_Tool_Box) | React, JavaScript | ✅ Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-devfusion-day6-activity-7347709090040582145-FhXr?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |06 July 2025 |Sunday |
 | 7   |[📁 BMI Calculator](./Day_7_BMI_Calculator) | Python | ✅ Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-python-bmicalculator-activity-7348037130608132096-yU7A?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |07 July 2025 |Monday |
 | 8   | [📁 Text Summarizer](./Day_8_Text_Summarizer) | Python, NLP, Hugging Face |  ✅ Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-python-nlp-activity-7348380809835270146-1bx7?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |08 July 2025 |Tuesday |
-| 9   | Unit Converter | C# | Coming Soon 🔜 | | | |
+| 9   | [📁 Unit Converter](./Day_9_Unit_Converter) |HTML, CSS, JS | ✅ Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-javascript-webdevelopment-activity-7348781598797897728-FcFv?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |09 July 2025 |Wednesday |
 | 10  | Notes App | .NET, Blazor | Coming Soon 🔜 | | | |
 | 11  | Expense Tracker | JavaScript, Chart.js | Coming Soon 🔜 | | | |
 | 12  | Speech to Text App | Python, SpeechRecognition | Coming Soon 🔜 | | | |
@@ -96,10 +97,11 @@ Each day I will:
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
   </a>
 </p>
----
+
 
 ## 🏁 Stay Tuned
 
 This repo will be updated daily with cool, practical, and open-source-friendly projects!  
 Let’s build something amazing — one project at a time. 💪🔥
+
 
