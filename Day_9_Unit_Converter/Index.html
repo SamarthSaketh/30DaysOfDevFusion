@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> Unit Converter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Unit Converter</h1>
+      <button id="themeToggle">🌓</button>
+    </div>
+
+    <label for="category">Category:</label>
+    <select id="category" onchange="populateUnits()">
+      <option value="Length">Length</option>
+      <option value="Weight">Weight</option>
+      <option value="Temperature">Temperature</option>
+    </select>
+
+    <div class="unit-row">
+      <div class="select-group">
+        <label>From:</label>
+        <select id="fromUnit"></select>
+      </div>
+      <button id="swapBtn">⇄</button>
+      <div class="select-group">
+        <label>To:</label>
+        <select id="toUnit"></select>
+      </div>
+    </div>
+
+    <label for="value">Value:</label>
+    <input type="number" id="value" step="any" placeholder="Enter a number" />
+
+    <div class="button-row">
+      <button id="clearBtn">Clear</button>
+      <button id="copyBtn">📋 Copy</button>
+      <button id="exportBtn">📤 Export</button>
+    </div>
+
+    <h2 id="result"></h2>
+
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
