@@ -11,17 +11,8 @@ Over the next 30 days, I'll be building **30 unique projects**, exploring a fusi
 ## 🎯 Objective
 
 To level up my development skills by building **real-world, hands-on projects** daily — covering front-end, back-end, APIs, data handling, and intelligent systems.
-
 ---
-
-## 🗓️ Challenge Timeline
-
-📅 **Start Date**: July 1, 2025  
-📅 **End Date**: July 30, 2025  
-🏁 **Duration**: 30 Days — 30 Projects
-
----
-![Progress](https://img.shields.io/badge/Progress-8%2F30-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-10%2F30-brightgreen)
 
 ## 📂 Project Tracker
 
@@ -36,7 +27,7 @@ To level up my development skills by building **real-world, hands-on projects** 
 | 7   |[📁 BMI Calculator](./Day_7_BMI_Calculator) | Python | ✅ Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-python-bmicalculator-activity-7348037130608132096-yU7A?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |07 July 2025 |Monday |
 | 8   | [📁 Text Summarizer](./Day_8_Text_Summarizer) | Python, NLP, Hugging Face |  ✅ Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-python-nlp-activity-7348380809835270146-1bx7?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |08 July 2025 |Tuesday |
 | 9   | [📁 Unit Converter](./Day_9_Unit_Converter) |HTML, CSS, JS | ✅ Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-javascript-webdevelopment-activity-7348781598797897728-FcFv?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |09 July 2025 |Wednesday |
-| 10  | Notes App | .NET, Blazor | Coming Soon 🔜 | | | |
+| 10  |  [📁 Notes App](./Day_10_Notes_App)| .NET, Blazor | ✅Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-blazor-dotnet-activity-7355665324874100737-udwh?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |28 July 2025 |Monday |
 | 11  | Expense Tracker | JavaScript, Chart.js | Coming Soon 🔜 | | | |
 | 12  | Speech to Text App | Python, SpeechRecognition | Coming Soon 🔜 | | | |
 | 13  | Blog API | Node.js, Express, MongoDB | Coming Soon 🔜 | | | |
