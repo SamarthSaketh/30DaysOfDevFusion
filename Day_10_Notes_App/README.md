@@ -28,24 +28,24 @@ A clean and responsive **Notes App** built with **.NET and Blazor WebAssembly**.
 ## ⚙️ How to Run
 
 1. Clone the repository:  
-   ```bash
+```
    git clone https://github.com/your-username/Day_10_Notes_App.git
 ````
 
 2. Navigate to the project folder:
 
-   ```bash
+```
    cd Day_10_Notes_App
-   ```
+```
 3. Run the app:
 
-   ```bash
+```
    dotnet run
-   ```
+```
 4. Open your browser and visit:
    [https://localhost:5001](https://localhost:5001)
 
----
+
 
 ## 📁 Project Structure
 
@@ -63,7 +63,7 @@ Day_10_Notes_App/
 └── Program.cs             # App entry point
 ```
 
----
+
 
 ## 📌 Completed on: July 28, 2025
 
