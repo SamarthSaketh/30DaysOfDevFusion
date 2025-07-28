@@ -1,0 +1,71 @@
+﻿@page "/"
+@using NotesApp.Models
+
+<div class="container py-4">
+    <h2 class="mb-4 text-center">📝 My Notes</h2>
+
+    <div class="card shadow-lg mb-4">
+        <div class="card-body">
+            <h5 class="card-title">Add a New Note</h5>
+            <div class="mb-3">
+                <input class="form-control" placeholder="Note Title" @bind="newNote.Title" />
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" rows="4" placeholder="Write your note here..." @bind="newNote.Content"></textarea>
+            </div>
+            <button class="btn btn-success" @onclick="AddNote" disabled="@IsNoteEmpty">➕ Add Note</button>
+        </div>
+    </div>
+
+    @if (notes.Count == 0)
+    {
+        <div class="alert alert-info text-center">No notes yet. Start writing something!</div>
+    }
+    else
+    {
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            @foreach (var note in notes)
+            {
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">@note.Title</h5>
+                            <p class="card-text">@note.Content</p>
+                        </div>
+                        <div class="card-footer bg-transparent d-flex justify-content-between align-items-center small text-muted">
+                            <span>@note.CreatedAt.ToString("dd MMM yyyy, hh:mm tt")</span>
+                            <button class="btn btn-sm btn-outline-danger" @onclick="() => DeleteNote(note.Id)">🗑 Delete</button>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
+
+@code {
+    private List<Note> notes = new();
+    private Note newNote = new();
+
+    private void AddNote()
+    {
+        if (!string.IsNullOrWhiteSpace(newNote.Title) || !string.IsNullOrWhiteSpace(newNote.Content))
+        {
+            notes.Insert(0, new Note
+            {
+                Title = newNote.Title.Trim(),
+                Content = newNote.Content.Trim(),
+                CreatedAt = DateTime.Now
+            });
+
+            newNote = new(); // clear form
+        }
+    }
+
+    private void DeleteNote(Guid id)
+    {
+        notes.RemoveAll(n => n.Id == id);
+    }
+
+    private bool IsNoteEmpty => string.IsNullOrWhiteSpace(newNote.Title) && string.IsNullOrWhiteSpace(newNote.Content);
+}
