@@ -1,4 +1,4 @@
-﻿# 📁 Day 1 - File Organizer using Python
+# 📁 Day 1 - File Organizer using Python
 
 ## 📝 Description
 This project is a **File Organizer** that automatically sorts files in a directory into folders based on their file types (like `.pdf`, `.jpg`, `.mp3`, etc.).  
@@ -74,6 +74,10 @@ Downloads/
 
 ## 📌 Completed on: July 1, 2025
 
----
 
-✅ A great way to start the challenge by solving a **real-life productivity problem**!
+https://github.com/user-attachments/assets/c97a115a-eb68-4ce3-ac5a-abf5211b0f81
+
+
+
+[![View on LinkedIn](https://img.shields.io/badge/View%20on%20LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-python-tkinter-activity-7345855693108690944-xASb?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA)
+
