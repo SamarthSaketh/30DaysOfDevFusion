@@ -51,11 +51,9 @@ This app lets you manage tasks with **due dates**, **recurring frequencies**, an
 9. Toggle between 🌞 Light and 🌙 Dark themes
 
 ---
-
 ## 📸 UI Preview
 
 ```
-
 🟢 Low Priority (3)    🟠 Medium Priority (2)    🔴 High Priority (1)
 
 ## 📅 Calendar:
@@ -67,13 +65,7 @@ This app lets you manage tasks with **due dates**, **recurring frequencies**, an
 
 ```
 
----
 
-## 📌 Completed on: July 5, 2025
-
-✅ This project was a great opportunity to practice **modular JavaScript**, **DOM manipulation**, **drag/drop**, **calendar grouping**, and a touch of **responsive UX** with **theme toggling** and **data persistence**.
-
----
 
 ## 📁 Folder Structure
 
@@ -86,11 +78,23 @@ This app lets you manage tasks with **due dates**, **recurring frequencies**, an
 └── README.md
 
 ```
-
 ---
-
 ## 🛠️ How to Run
+```
 
 1. Clone/download the repo  
 2. Open `index.html` in your browser  
 3. Start adding and managing your tasks!
+```
+---
+
+
+
+## 📌 Completed on: July 5, 2025
+
+
+https://github.com/user-attachments/assets/0fe8b89b-6f34-4dc2-b308-0389a1b14845
+
+
+
+[![View on LinkedIn](https://img.shields.io/badge/View%20on%20LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-devfusion-day5-activity-7347319652823273472-1vhp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA)
