@@ -64,3 +64,9 @@ Day_10_Notes_App/
 
 ## 📌 Completed on: July 28, 2025
 
+
+
+https://github.com/user-attachments/assets/e5ef1c42-2370-45ce-87e9-3cf70d8dd61b
+
+[![View on LinkedIn](https://img.shields.io/badge/View%20on%20LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-blazor-dotnet-activity-7355665324874100737-udwh?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA)
+
