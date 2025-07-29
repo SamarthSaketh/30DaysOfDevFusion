@@ -69,7 +69,14 @@ Day\_7\_BMI\_Calculator/
 
 ## 📌 Completed on: July 7, 2025
 
-✅ One step closer to building useful real-world Python desktop apps!
+
+
+https://github.com/user-attachments/assets/d261d4a1-7873-43f8-bc43-c23af89d839a
+
+
+
+
+[![View on LinkedIn](https://img.shields.io/badge/View%20on%20LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-python-bmicalculator-activity-7348037130608132096-yU7A?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA)
 
 
 
