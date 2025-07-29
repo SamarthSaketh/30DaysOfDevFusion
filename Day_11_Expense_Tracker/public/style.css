@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f2f5f9;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 95%;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #4A90E2;
+    margin-bottom: 15px;
+}
+
+.input-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #eef4fb;
+    border-radius: 8px;
+}
+
+.input-section label {
+    font-weight: bold;
+}
+
+.input-section input,
+.input-section select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-section button,
+.actions-section button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input-section button:hover,
+.actions-section button:hover {
+    background-color: #45a049;
+}
+
+.actions-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.expenses-list {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 14px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #4A90E2;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+tfoot td {
+    font-weight: bold;
+    background-color: #f0f4f7;
+}
+
+.delete-btn,
+.edit-btn {
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn {
+    background-color: #FF6B6B;
+}
+
+.delete-btn:hover {
+    background-color: #e55a5a;
+}
+
+.edit-btn {
+    background-color: #4A90E2;
+    margin-right: 5px;
+}
+
+.edit-btn:hover {
+    background-color: #3b7bb0;
+}
+
+#total-amount {
+    color: #333;
+    font-weight: bold;
+}
+
+#filter_date_btn,
+#reset_filter_btn,
+#export_pdf_btn,
+#sort_date_btn,
+#export_excel_btn {
+    padding: 5px 10px;
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#filter_date_btn:hover,
+#reset_filter_btn:hover,
+#export_pdf_btn:hover,
+#sort_date_btn:hover,
+#export_excel_btn:hover {
+    background-color: #3b7bb0;
+}
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px;
+  background-color: #fdfdfd;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.filter-group,
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-group label {
+  font-weight: 500;
+  margin-right: 4px;
+}
+
+.filters input[type="text"],
+.filters select,
+.filters input[type="date"] {
+  padding: 6px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filters button {
+  padding: 6px 12px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.filters button:hover {
+  background-color: #0056b3;
+}
+
+table th {
+  position: relative;
+  min-width: 80px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
