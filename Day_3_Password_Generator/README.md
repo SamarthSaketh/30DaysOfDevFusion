@@ -62,6 +62,10 @@ It supports detailed control over the number of uppercase, lowercase, digits, an
 
 ## 📌 Completed on: July 3, 2025
 
----
 
-✅ This project was a fantastic way to practice **ASP.NET Razor Pages**, **form handling**, **DOM manipulation**, **security principles**, and **UI/UX enhancements**!
+https://github.com/user-attachments/assets/88f38acb-b021-4b73-bfe2-381be2695c42
+
+
+
+[![View on LinkedIn](https://img.shields.io/badge/View%20on%20LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-devfusion-day3-activity-7346623403207905283-2GcA?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA)
+
