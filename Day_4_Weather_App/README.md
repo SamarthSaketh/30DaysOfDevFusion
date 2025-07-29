@@ -80,6 +80,8 @@ With added dark mode, charts, and maps — it brings a complete weather dashboar
 
 ## 📌 Completed on: July 4, 2025
 
-✅ This project was a perfect opportunity to work with **external APIs**, **JSON parsing**, **charting libraries**, **geolocation APIs**, and enhance frontend polish with **theme toggle** and **responsive design**!
 
----
+https://github.com/user-attachments/assets/a4efe38b-5744-4f3f-a760-27a16c6a9c94
+
+[![View on LinkedIn](https://img.shields.io/badge/View%20on%20LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-dotnet-weatherapp-activity-7347169235334287361-M-m-?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA)
+
