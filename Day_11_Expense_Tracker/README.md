@@ -1,4 +1,5 @@
-# 💸 Day 11 – Expense Tracker
+
+# 💸 Day 11 Expense Tracker
 
 ## 📝 Description
 
@@ -56,4 +57,7 @@ Day\_11\_Expense\_Tracker/
 ---
 ## 📌 Completed on: July 29, 2025
 
+https://github.com/user-attachments/assets/3a95cb82-ecec-4a94-b982-bac67e927b80
+
 [![View on LinkedIn](https://img.shields.io/badge/View%20on%20LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-javascript-webdevelopment-activity-7356025889161162752-Jgs3/)
+
