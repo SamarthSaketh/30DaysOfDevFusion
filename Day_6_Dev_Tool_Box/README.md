@@ -2,7 +2,7 @@
 # Day 6 - DevToolbox – All-in-One Developer Toolkit
 
 ## 📝 Description
-**DevToolbox** is a sleek and very powerful **developer productivity suite** that bundles multiple essential tools into a single React app.  
+**DevToolbox** is a sleek and powerful **developer productivity suite** that bundles multiple essential tools into a single React app.  
 Whether you're working with JSON, decoding JWTs, generating UUIDs, testing regex patterns, or converting text — DevToolbox has you covered.
 
 ---
@@ -80,8 +80,15 @@ src/
 4. Open in browser:
    [http://localhost:3000](http://localhost:3000)
 
-## 📌 Completed on: July 6, 2025
+## 📌 Completed on: July 6, 2025 
 
----
+https://github.com/user-attachments/assets/198f87b1-db30-4b69-ac77-77fdfb902273
 
-✅ A perfect Swiss Army Knife for any developer’s day-to-day toolbox!
+[![View on LinkedIn](https://img.shields.io/badge/View%20on%20LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-devfusion-day6-activity-7347709090040582145-FhXr?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA)
+
+
+
+
+
+
+
