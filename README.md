@@ -12,7 +12,7 @@ Over the next 30 days, I'll be building **30 unique projects**, exploring a fusi
 
 To level up my development skills by building **real-world, hands-on projects** daily — covering front-end, back-end, APIs, data handling, and intelligent systems.
 ---
-![Progress](https://img.shields.io/badge/Progress-11%2F30-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-12%2F30-brightgreen)
 
 ## 📂 Project Tracker
 
@@ -29,10 +29,10 @@ To level up my development skills by building **real-world, hands-on projects** 
 | 9   | [📁 Unit Converter](./Day_9_Unit_Converter) |HTML, CSS, JS | ✅ Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-javascript-webdevelopment-activity-7348781598797897728-FcFv?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |09 July 2025 |Wednesday |
 | 10  |  [📁 Notes App](./Day_10_Notes_App)| .NET, Blazor | ✅Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-blazor-dotnet-activity-7355665324874100737-udwh?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |28 July 2025 |Monday |
 | 11  | [📁 Expense Tracker](./Day_11_Expense_Tracker) | JavaScript | ✅Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-javascript-webdevelopment-activity-7356025889161162752-Jgs3/) | 29 July 2025 |Tuesday|
-| 12  | Speech to Text App | Python, SpeechRecognition | Coming Soon 🔜 | | | |
-| 13  | Blog API | Node.js, Express, MongoDB | Coming Soon 🔜 | | | |
-| 14  | Chatbot | Python, Flask, NLP | Coming Soon 🔜 | | | |
-| 15  | Image Gallery | JavaScript, HTML, CSS | Coming Soon 🔜 | | | |
+| 12  | [📁 Blog App](./Day_12_Blog_App) | Node.js, Express, MongoDB | ✅Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-nodejs-api-activity-7356694339458101248-Fxbx?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |30 July 2025 |Wednesday |
+| 13  | Image Gallery | JavaScript, HTML, CSS | Coming Soon 🔜 | | | |
+| 14  | Speech to Text App | Python, SpeechRecognition | Coming Soon 🔜 | | | |
+| 15  | Chatbot | Python, Flask, NLP | Coming Soon 🔜 | | | |
 | 16  | PDF Merger | Python, PyPDF2 | Coming Soon 🔜 | | | |
 | 17  | Calculator App | C# | Coming Soon 🔜 | | | |
 | 18  | Quiz App | JavaScript | Coming Soon 🔜 | | | |
