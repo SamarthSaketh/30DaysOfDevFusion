@@ -31,7 +31,7 @@ To level up my development skills by building **real-world, hands-on projects** 
 | 11  | [📁 Expense Tracker](./Day_11_Expense_Tracker) | JavaScript | ✅Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-javascript-webdevelopment-activity-7356025889161162752-Jgs3/) | 29 July 2025 |Tuesday|
 | 12  | [📁 Blog App](./Day_12_Blog_App) | Node.js, Express, MongoDB | ✅Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-nodejs-api-activity-7356694339458101248-Fxbx?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |30 July 2025 |Wednesday |
 | 13  | [📁 Image Gallery](./Day_13_Image_Gallery) | JavaScript, HTML, CSS |  ✅Done | [View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-html-css-activity-7356729439134633984-nRQY?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |31 July 2025  |Thursday |
-| 14  | Speech to Text App | Python, SpeechRecognition | Coming Soon 🔜 | | | |
+| 14  | Scientific Calculator App | Full Stack| Coming Soon 🔜 | | | |
 | 15  | Chatbot | Python, Flask, NLP | Coming Soon 🔜 | | | |
 | 16  | PDF Merger | Python, PyPDF2 | Coming Soon 🔜 | | | |
 | 17  | Calculator App | C# | Coming Soon 🔜 | | | |
