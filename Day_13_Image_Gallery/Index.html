@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Grouped Image Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="header">
+    <h1>Grouped Image Gallery</h1>
+    <button id="createGroupBtn">+ Create Group</button>
+  </div>
+
+  <div id="groupView" class="group-view"></div>
+
+  <!-- Group Creation Popup -->
+  <div id="groupPopup" class="popup hidden">
+    <div class="popup-content">
+      <h2>Create Group</h2>
+      <input type="text" id="groupName" placeholder="Group Name" />
+      <input type="file" id="groupImages" multiple accept="image/*" />
+      <div class="popup-buttons">
+        <button id="addGroup">Add</button>
+        <button id="cancelGroup">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Group Detail View -->
+  <div id="groupDetailView" class="hidden">
+    <div class="group-detail-header">
+      <button id="backToHome">← Back</button>
+      <h2 id="groupTitle"></h2>
+     <div class="group-toolbar">
+  <select id="layoutSelector">
+    <option value="masonry">Masonry</option>
+    <option value="grid">Grid</option>
+    <!-- <option value="viewer">Lightbox Viewer</option> -->
+    <option value="columns">Columns</option>
+    <option value="circle">Circle</option>
+    <option value="carousel">Carousel</option>
+  </select>
+  <div class="action-buttons">
+    <button id="addPhotosBtn">+ Add Photos</button>
+    <button id="renameGroupBtn">✏️ Rename</button>
+    <button id="deleteGroupBtn">🗑️ Delete</button>
+  </div>
+</div>
+
+    </div>
+    <div id="groupImagesContainer" class="gallery"></div>
+  </div>
+
+  <!-- Image Modal -->
+  <div id="imageModal" class="modal">
+    <span id="imageModalClose" class="modal-close">×</span>
+    <img id="imageModalImg" class="modal-content" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
