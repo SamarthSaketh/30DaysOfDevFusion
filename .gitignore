@@ -1,0 +1,9 @@
+# Node.js dependencies
+node_modules/
+
+# Environment files (API keys, secrets, etc.)
+.env
+Day_11_Expense_Tracker_Original.mp4
+Day_12_Blog_App_Original.mp4
+.env.sample
+cyb.html

@@ -1,0 +1,43 @@
+<div class="my-navbar">
+  <div class="container">
+    <nav class="navbar">
+      <a href="/" class="nav-link">Home</a>
+      <a href="/blog" class="nav-link<% if(titleTag == "All Blog Posts"){ %> active<% } %>">All Blogs</a>
+      <a href="/blog/new" class="nav-link<% if(titleTag == "Add New Post"){ %> active<% } %>">Add Post</a>
+    </nav>
+  </div>
+</div>
+
+<style>
+  .my-navbar {
+    background-color: #343a40;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px 0;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-link {
+    color: white;
+    padding: 12px 20px;
+    margin: 0 10px;
+    transition: background-color 0.3s, transform 0.2s;
+    border-radius: 25px;
+    font-weight: 500;
+  }
+
+  .nav-link:hover {
+    background-color: #6c757d;
+    transform: translateY(-2px);
+  }
+
+  .nav-link.active {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+</style>
