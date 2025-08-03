@@ -32,7 +32,7 @@ To level up my development skills by building **real-world, hands-on projects** 
 | 12  | [📁 Blog App](./Day_12_Blog_App) | Node.js, Express, MongoDB | ✅Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-nodejs-api-activity-7356694339458101248-Fxbx?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |30 July 2025 |Wednesday |
 | 13  | [📁 Image Gallery](./Day_13_Image_Gallery) | JavaScript, HTML, CSS |  ✅Done | [View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-html-css-activity-7356729439134633984-nRQY?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |31 July 2025  |Thursday |
 | 14  | [📁 Scientific Calculator App](./Day_14_Scientific_Calculator) | JavaScript, HTML, CSS| ✅Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-html-css-activity-7357661730098827264-4Hw3?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |01 August 2025 | Friday|
-| 15  | Chatbot | Python, Flask, NLP | Coming Soon 🔜 | | | |
+| 15  | [📁 Chatbot](./Day_15_Chatbot) | Python, Flask, NLP |  ✅Done | [View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-html-css-activity-7357733225869332480-QcXU?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA)| 02 August 2025| Saturday|
 | 16  | PDF Merger | Python, PyPDF2 | Coming Soon 🔜 | | | |
 | 17  | Password Manager App | Full Stack | Coming Soon 🔜 | | | |
 | 18  | Quiz App | JavaScript | Coming Soon 🔜 | | | |
@@ -48,7 +48,6 @@ To level up my development skills by building **real-world, hands-on projects** 
 | 28  | Currency Converter | JavaScript, API | Coming Soon 🔜 | | | |
 | 29  | Portfolio Website | HTML, CSS, JavaScript | Coming Soon 🔜 | | | |
 | 30  | Project Showcase Site | HTML, CSS, JavaScript | Coming Soon 🔜 | | | |
-
 
 
 

@@ -3,7 +3,14 @@ node_modules/
 
 # Environment files (API keys, secrets, etc.)
 .env
+.env.sample
+
+#Other files
 Day_11_Expense_Tracker_Original.mp4
 Day_12_Blog_App_Original.mp4
-.env.sample
 cyb.html
+Day_13_Image_Gallery/Day_13_Image_Gallery_Original.mp4
+Day_14_Scientific_Calculator_Original.mp4
+Day_15_Chatbot_Original.mp4
+.vscode/
+__pycache__
