@@ -34,9 +34,9 @@ To level up my development skills by building **real-world, hands-on projects** 
 | 14  | [📁 Scientific Calculator App](./Day_14_Scientific_Calculator) | JavaScript, HTML, CSS| ✅Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-html-css-activity-7357661730098827264-4Hw3?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |01 August 2025 | Friday|
 | 15  | Chatbot | Python, Flask, NLP | Coming Soon 🔜 | | | |
 | 16  | PDF Merger | Python, PyPDF2 | Coming Soon 🔜 | | | |
-| 17  | Calculator App | C# | Coming Soon 🔜 | | | |
+| 17  | Password Manager App | Full Stack | Coming Soon 🔜 | | | |
 | 18  | Quiz App | JavaScript | Coming Soon 🔜 | | | |
-| 19  | Portfolio Website | HTML, CSS, JavaScript | Coming Soon 🔜 | | | |
+| 19  | Spam Classifier | Python, Sklearn | Coming Soon 🔜 | | | |
 | 20  | Login Auth System | Node.js, Express, MongoDB | Coming Soon 🔜 | | | |
 | 21  | Sentiment Analysis | Python, Scikit-learn, NLTK | Coming Soon 🔜 | | | |
 | 22  | Random Quote Generator | JavaScript, HTML, CSS | Coming Soon 🔜 | | | |
@@ -46,7 +46,7 @@ To level up my development skills by building **real-world, hands-on projects** 
 | 26  | Chat App | Node.js, Socket.IO | Coming Soon 🔜 | | | |
 | 27  | Web Scraper | Python, BeautifulSoup | Coming Soon 🔜 | | | |
 | 28  | Currency Converter | JavaScript, API | Coming Soon 🔜 | | | |
-| 29  | Spam Classifier | Python, Sklearn | Coming Soon 🔜 | | | |
+| 29  | Portfolio Website | HTML, CSS, JavaScript | Coming Soon 🔜 | | | |
 | 30  | Project Showcase Site | HTML, CSS, JavaScript | Coming Soon 🔜 | | | |
 
 
@@ -94,6 +94,7 @@ Each day I will:
 
 This repo will be updated daily with cool, practical, and open-source-friendly projects!  
 Let’s build something amazing — one project at a time. 💪🔥
+
 
 
 
