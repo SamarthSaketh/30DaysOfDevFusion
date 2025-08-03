@@ -12,7 +12,7 @@ Over the next 30 days, I'll be building **30 unique projects**, exploring a fusi
 
 To level up my development skills by building **real-world, hands-on projects** daily — covering front-end, back-end, APIs, data handling, and intelligent systems.
 ---
-![Progress](https://img.shields.io/badge/Progress-14%2F30-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-15%2F30-brightgreen)
 
 ## 📂 Project Tracker
 
