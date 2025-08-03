@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scientific Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+</head>
+<body class="light-theme">
+  <div class="calculator-container">
+    <header>
+      <h1>Scientific Calculator</h1>
+      <div class="toggle-controls">
+        <button id="modeToggle">Scientific Mode</button>
+        <button id="themeToggle">🌙</button>
+        <button id="historyToggle" title="Toggle History">
+            <i class="fas fa-history"></i>
+        </button>
+        <button id="shortcutsBtn" title="Show Keyboard Shortcuts">
+  <i class="fas fa-keyboard"></i>
+</button>
+
+<div id="shortcutsModal" class="modal hidden">
+  <div class="modal-content">
+    <span class="close-btn" id="closeShortcuts">&times;</span>
+    <h2>Keyboard Shortcuts</h2>
+    <ul>
+      <li><strong>s</strong> – sin(</li>
+      <li><strong>c</strong> – cos(</li>
+      <li><strong>t</strong> – tan(</li>
+      <li><strong>r</strong> – √( (square root)</li>
+      <li><strong>p</strong> – π</li>
+      <li><strong>e</strong> – e</li>
+      <li><strong>^</strong> – exponentiation</li>
+      <li><strong>!</strong> – factorial</li>
+      <li><strong>l</strong> – log(</li>
+      <li><strong>Shift + l</strong> – ln(</li>
+    </ul>
+  </div>
+</div>
+
+
+      </div>
+    </header>
+
+    <div class="display">
+      <div id="expression"></div>
+      <div id="result"></div>
+    </div>
+
+    <div class="button-grid basic-buttons">
+      <!-- Basic buttons -->
+      <button data-key="C">C</button>
+      <button data-key="←">←</button>
+      <button data-key="%">%</button>
+      <button data-key="/">÷</button>
+
+      <button data-key="7">7</button>
+      <button data-key="8">8</button>
+      <button data-key="9">9</button>
+      <button data-key="*">×</button>
+
+      <button data-key="4">4</button>
+      <button data-key="5">5</button>
+      <button data-key="6">6</button>
+      <button data-key="-">−</button>
+
+      <button data-key="1">1</button>
+      <button data-key="2">2</button>
+      <button data-key="3">3</button>
+      <button data-key="+">+</button>
+
+      <button data-key="±">±</button>
+      <button data-key="0">0</button>
+      <button data-key=".">.</button>
+      <button data-key="=">=</button>
+    </div>
+
+    <div class="button-grid scientific-buttons hidden">
+      <!-- Scientific buttons -->
+      <button data-key="sin(">sin</button>
+      <button data-key="cos(">cos</button>
+      <button data-key="tan(">tan</button>
+      <button data-key="log(">log</button>
+
+      <button data-key="ln(">ln</button>
+      <button data-key="√(">√</button>
+      <button data-key="^">^</button>
+      <button data-key="(">(</button>
+
+      <button data-key=")">)</button>
+      <button data-key="π">π</button>
+      <button data-key="e">e</button>
+      <button data-key="!">n!</button>
+    </div>
+
+    <div class="history-panel hidden" id="historyPanel">
+      <h3>History</h3>
+      <ul id="historyList"></ul>
+      <button id="clearHistory">Clear History</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
