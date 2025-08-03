@@ -12,7 +12,7 @@ Over the next 30 days, I'll be building **30 unique projects**, exploring a fusi
 
 To level up my development skills by building **real-world, hands-on projects** daily — covering front-end, back-end, APIs, data handling, and intelligent systems.
 ---
-![Progress](https://img.shields.io/badge/Progress-15%2F30-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-16%2F30-brightgreen)
 
 ## 📂 Project Tracker
 
@@ -33,7 +33,7 @@ To level up my development skills by building **real-world, hands-on projects** 
 | 13  | [📁 Image Gallery](./Day_13_Image_Gallery) | JavaScript, HTML, CSS |  ✅Done | [View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-html-css-activity-7356729439134633984-nRQY?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |31 July 2025  |Thursday |
 | 14  | [📁 Scientific Calculator App](./Day_14_Scientific_Calculator) | JavaScript, HTML, CSS| ✅Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-html-css-activity-7357661730098827264-4Hw3?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |01 August 2025 | Friday|
 | 15  | [📁 Chatbot](./Day_15_Chatbot) | Python, Flask, NLP |  ✅Done | [View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-html-css-activity-7357733225869332480-QcXU?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA)| 02 August 2025| Saturday|
-| 16  | PDF Merger | Python, PyPDF2 | Coming Soon 🔜 | | | |
+| 16  | [📁 PDFToolKit](./Day_16_PDFToolkit) | Python, PyPDF2 |  ✅Done | [View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-python-streamlit-activity-7357836895067783170-JGrv?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA)| 03 August 2025| Sunday|
 | 17  | Password Manager App | Full Stack | Coming Soon 🔜 | | | |
 | 18  | Quiz App | JavaScript | Coming Soon 🔜 | | | |
 | 19  | Spam Classifier | Python, Sklearn | Coming Soon 🔜 | | | |
@@ -93,6 +93,7 @@ Each day I will:
 
 This repo will be updated daily with cool, practical, and open-source-friendly projects!  
 Let’s build something amazing — one project at a time. 💪🔥
+
 
 
 
