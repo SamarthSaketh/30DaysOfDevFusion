@@ -1,6 +1,6 @@
 
 
-# 🖼️ Day 12 – Grouped Image Gallery
+# 🖼️ Day 13 – Grouped Image Gallery
 
 ## 📝 Description
 
