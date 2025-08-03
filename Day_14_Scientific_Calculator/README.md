@@ -58,7 +58,7 @@ Day_14_Scientific_Calculator/
 
 ---
 
-## 📌 Completed on: August 3, 2025
+## 📌 Completed on: August 1, 2025
 
 https://github.com/user-attachments/assets/68855a4b-1ea1-4ac8-a3c3-f9a57e546e0b
 
