@@ -34,7 +34,7 @@ To level up my development skills by building **real-world, hands-on projects** 
 | 14  | [📁 Scientific Calculator App](./Day_14_Scientific_Calculator) | JavaScript, HTML, CSS| ✅Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-html-css-activity-7357661730098827264-4Hw3?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |01 August 2025 | Friday|
 | 15  | [📁 Chatbot](./Day_15_Chatbot) | Python, Flask, NLP |  ✅Done | [View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-html-css-activity-7357733225869332480-QcXU?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA)| 02 August 2025| Saturday|
 | 16  | [📁 PDFToolKit](./Day_16_PDFToolkit) | Python, PyPDF2 |  ✅Done | [View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-python-streamlit-activity-7357836895067783170-JGrv?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA)| 03 August 2025| Sunday|
-| 17  | Password Manager App | Full Stack | Coming Soon 🔜 | | | |
+| 17  | [📁 Password Manager](./Day_17_Password_Manager)| Full Stack | ✅Done | [View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-javascript-passwordgenerator-activity-7358201930352939008-oFBW?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA)| 04 August 2025| Monday|
 | 18  | Quiz App | JavaScript | Coming Soon 🔜 | | | |
 | 19  | Spam Classifier | Python, Sklearn | Coming Soon 🔜 | | | |
 | 20  | Login Auth System | Node.js, Express, MongoDB | Coming Soon 🔜 | | | |

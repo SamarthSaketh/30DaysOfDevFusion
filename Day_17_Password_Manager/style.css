@@ -1,0 +1,133 @@
+/* === Base Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  transition: background 0.3s, color 0.3s;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: var(--card);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* === Theme Variables === */
+:root {
+  --bg: #f4f4f4;
+  --text: #222;
+  --card: #fff;
+  --input: #f0f0f0;
+  --btn: #007bff;
+  --btn-text: #fff;
+  --danger: #dc3545;
+}
+
+body.dark {
+  --bg: #121212;
+  --text: #eee;
+  --card: #1e1e1e;
+  --input: #2b2b2b;
+  --btn: #0d6efd;
+  --btn-text: #fff;
+  --danger: #ff4c4c;
+}
+
+/* === Form === */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  background-color: var(--input);
+  border-radius: 6px;
+  color: inherit;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: var(--btn);
+  color: var(--btn-text);
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* === Search === */
+#searchInput {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/* === Credentials List === */
+.credential {
+  padding: 12px;
+  margin-bottom: 10px;
+  background-color: var(--input);
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.credential span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.credential-actions button {
+  margin-left: 5px;
+  background-color: var(--danger);
+}
+
+/* === Strength Meter === */
+#strengthMeter {
+  height: 6px;
+  background: #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+#strengthMeter[data-strength="1"] { background-color: red; width: 25%; }
+#strengthMeter[data-strength="2"] { background-color: orange; width: 50%; }
+#strengthMeter[data-strength="3"] { background-color: yellowgreen; width: 75%; }
+#strengthMeter[data-strength="4"] { background-color: green; width: 100%; }
+#passwordRules {
+  margin-top: 5px;
+  font-size: 0.9em;
+  list-style: none;
+  padding-left: 0;
+}
+
+#passwordRules li {
+  color: gray;
+  transition: color 0.2s;
+}
+
+#passwordRules li.valid {
+  color: green;
+}
+.valid {
+  color: green;
+  font-weight: bold;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Password Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🔐 Password Manager</h1>
+
+    <!-- Theme Toggle -->
+
+    <!-- Add Credential Form -->
+    <form id="credentialForm">
+      <input type="text" id="website" placeholder="Website" required>
+      <input type="text" id="username" placeholder="Username/Email" required>
+      
+      <!-- Password Input with Visibility Toggle -->
+<div style="position: relative;">
+  <input 
+    type="password" 
+    id="password" 
+    placeholder="Password" 
+    required 
+    onfocus="showRules()" 
+    onblur="hideRules()"
+  >
+  <span 
+    id="togglePassword" 
+    style="position: absolute; top: 50%; right: 10px; cursor: pointer; transform: translateY(-50%);"
+  >👁️</span>
+</div>
+
+
+      <!-- Password Generator Button -->
+      <button type="button" id="generatePassword">Generate Strong Password</button>
+
+      <!-- Password Strength Meter -->
+      <div id="strengthMeter"></div>
+
+      <!-- Save Button -->
+      <button type="submit" id="saveBtn" disabled>Save</button>
+    </form>
+
+    <!-- Password Rules (Initially Hidden) -->
+    <ul id="passwordRules" hidden>
+      <li id="rule-lower">🔡 At least one lowercase</li>
+      <li id="rule-upper">🔠 At least one uppercase</li>
+      <li id="rule-number">🔢 At least one number</li>
+      <li id="rule-special">🔣 At least one special character</li>
+    </ul>
+
+    <!-- Search -->
+    <input type="text" id="searchInput" placeholder="Search...">
+    <button id="exportBtn">📤 Export to CSV</button>  <button id="themeToggle">🌗</button>
+    <button id="clear">Clear</button>
+
+    <!-- Credentials List -->
+    <div id="credentialsList"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
