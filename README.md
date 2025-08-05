@@ -12,7 +12,7 @@ Over the next 30 days, I'll be building **30 unique projects**, exploring a fusi
 
 To level up my development skills by building **real-world, hands-on projects** daily — covering front-end, back-end, APIs, data handling, and intelligent systems.
 ---
-![Progress](https://img.shields.io/badge/Progress-17%2F30-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-18%2F30-brightgreen)
 
 ## 📂 Project Tracker
 
@@ -35,7 +35,7 @@ To level up my development skills by building **real-world, hands-on projects** 
 | 15  | [📁 Chatbot](./Day_15_Chatbot) | Python, Flask, NLP |  ✅Done | [View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-html-css-activity-7357733225869332480-QcXU?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA)| 02 August 2025| Saturday|
 | 16  | [📁 PDFToolKit](./Day_16_PDFToolkit) | Python, PyPDF2 |  ✅Done | [View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-python-streamlit-activity-7357836895067783170-JGrv?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA)| 03 August 2025| Sunday|
 | 17  | [📁 Password Manager](./Day_17_Password_Manager)| Full Stack | ✅Done | [View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-javascript-passwordgenerator-activity-7358201930352939008-oFBW?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA)| 04 August 2025| Monday|
-| 18  | Quiz App | JavaScript | Coming Soon 🔜 | | | |
+| 18  | [📁 Quiz App](./Day_18_Quiz_App) | JavaScript | ✅Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-quizapp-webdevelopment-activity-7358515316223594500-QMow?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |05 August 2025 |Tuesday |
 | 19  | Spam Classifier | Python, Sklearn | Coming Soon 🔜 | | | |
 | 20  | Login Auth System | Node.js, Express, MongoDB | Coming Soon 🔜 | | | |
 | 21  | Sentiment Analysis | Python, Scikit-learn, NLTK | Coming Soon 🔜 | | | |
