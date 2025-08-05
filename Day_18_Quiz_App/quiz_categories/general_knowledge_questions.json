@@ -1,0 +1,125 @@
+{
+  "category": "general_knowledge",
+  "questions": [
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Earth", "Mars", "Jupiter", "Venus"],
+      "answerIndex": 1,
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the capital of France?",
+      "options": ["Paris", "Berlin", "Madrid", "Rome"],
+      "answerIndex": 0,
+      "difficulty": "easy"
+    },
+    {
+      "question": "How many continents are there in the world?",
+      "options": ["5", "6", "7", "8"],
+      "answerIndex": 2,
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which ocean is the largest?",
+      "options": ["Atlantic", "Indian", "Pacific", "Arctic"],
+      "answerIndex": 2,
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which country gifted the Statue of Liberty to the USA?",
+      "options": ["Germany", "France", "Italy", "Spain"],
+      "answerIndex": 1,
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which year did World War II end?",
+      "options": ["1940", "1942", "1945", "1950"],
+      "answerIndex": 2,
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the smallest country in the world?",
+      "options": ["Monaco", "Vatican City", "Malta", "Liechtenstein"],
+      "answerIndex": 1,
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which element has the chemical symbol 'O'?",
+      "options": ["Gold", "Oxygen", "Osmium", "Oxide"],
+      "answerIndex": 1,
+      "difficulty": "medium"
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "options": ["Vincent Van Gogh", "Leonardo da Vinci", "Pablo Picasso", "Michelangelo"],
+      "answerIndex": 1,
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the largest desert in the world?",
+      "options": ["Sahara", "Gobi", "Antarctic", "Arctic"],
+      "answerIndex": 2,
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the currency of Japan?",
+      "options": ["Won", "Yuan", "Yen", "Ringgit"],
+      "answerIndex": 2,
+      "difficulty": "hard"
+    },
+    {
+      "question": "Who discovered penicillin?",
+      "options": ["Alexander Fleming", "Marie Curie", "Louis Pasteur", "Isaac Newton"],
+      "answerIndex": 0,
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which river flows through Egypt?",
+      "options": ["Amazon", "Ganges", "Nile", "Danube"],
+      "answerIndex": 2,
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which country has the most natural lakes?",
+      "options": ["USA", "Russia", "Canada", "China"],
+      "answerIndex": 2,
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which gas is most abundant in the Earth's atmosphere?",
+      "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+      "answerIndex": 2,
+      "difficulty": "hard"
+    },
+    {
+      "question": "Who was the first woman to win a Nobel Prize?",
+      "options": ["Marie Curie", "Rosalind Franklin", "Ada Lovelace", "Jane Goodall"],
+      "answerIndex": 0,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What is the name of the longest mountain range in the world?",
+      "options": ["Rockies", "Andes", "Himalayas", "Alps"],
+      "answerIndex": 1,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which treaty ended World War I?",
+      "options": ["Treaty of Versailles", "Treaty of Paris", "Treaty of Ghent", "Treaty of Utrecht"],
+      "answerIndex": 0,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What is the term for animals active during dawn and dusk?",
+      "options": ["Diurnal", "Nocturnal", "Crepuscular", "Omnivorous"],
+      "answerIndex": 2,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which is the world's largest island that is not a continent?",
+      "options": ["Australia", "Greenland", "Madagascar", "Borneo"],
+      "answerIndex": 1,
+      "difficulty": "advanced"
+    }
+  ]
+}

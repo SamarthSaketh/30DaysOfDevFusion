@@ -1,0 +1,125 @@
+{
+  "category": "C++",
+  "questions": [
+    {
+      "question": "What is the correct file extension for C++ source files?",
+      "options": ["*.cpp", "*.c", "*.cp", "*.cxx"],
+      "answerIndex": 0,
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which keyword is used to define a class in C++?",
+      "options": ["object", "struct", "define", "class"],
+      "answerIndex": 3,
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which of the following is a valid C++ identifier?",
+      "options": ["2value", "_value", "value-2", "float"],
+      "answerIndex": 1,
+      "difficulty": "easy"
+    },
+    {
+      "question": "What symbol is used to end a statement in C++?",
+      "options": ["#", ".", ":", ";"],
+      "answerIndex": 3,
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which of these is a correct way to comment in C++?",
+      "options": ["<!-- comment -->", "// comment", "# comment", "** comment **"],
+      "answerIndex": 1,
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which header file is required for using `cout` and `cin`?",
+      "options": ["<stdio.h>", "<iostream>", "<conio.h>", "<stdlib.h>"],
+      "answerIndex": 1,
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which concept allows using the same function name with different parameters?",
+      "options": ["Encapsulation", "Inheritance", "Polymorphism", "Function Overloading"],
+      "answerIndex": 3,
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the output of: `int a = 5; cout << ++a;`?",
+      "options": ["5", "6", "4", "Error"],
+      "answerIndex": 1,
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which of the following is NOT a fundamental data type in C++?",
+      "options": ["int", "bool", "float", "array"],
+      "answerIndex": 3,
+      "difficulty": "medium"
+    },
+    {
+      "question": "How do you define a constant variable in C++?",
+      "options": ["let x = 10;", "const int x = 10;", "final int x = 10;", "#define x 10"],
+      "answerIndex": 1,
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which of the following correctly allocates memory dynamically?",
+      "options": ["int *p = new int;", "int p = new int;", "new int p;", "int* p = malloc(sizeof(int));"],
+      "answerIndex": 0,
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which keyword is used to inherit a class in C++?",
+      "options": ["inherits", "extends", "public", "import"],
+      "answerIndex": 2,
+      "difficulty": "hard"
+    },
+    {
+      "question": "What does the `virtual` keyword indicate in C++?",
+      "options": ["The function is abstract", "Function can’t be overridden", "Late binding is allowed", "It runs faster"],
+      "answerIndex": 2,
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which principle allows an object to take many forms?",
+      "options": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+      "answerIndex": 2,
+      "difficulty": "hard"
+    },
+    {
+      "question": "How do you free memory allocated using `new`?",
+      "options": ["delete variable;", "free(variable);", "remove variable;", "clear(variable);"],
+      "answerIndex": 0,
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the output of:\n```cpp\nint a = 10, b = 0;\ntry {\n  if (b == 0) throw \"Division by zero\";\n  cout << a/b;\n} catch (const char* msg) {\n  cout << msg;\n}\n```",
+      "options": ["Runtime error", "Division by zero", "0", "10"],
+      "answerIndex": 1,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What is a pure virtual function?",
+      "options": ["A function with no return type", "A function with no body", "A function that always throws", "A static function"],
+      "answerIndex": 1,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which C++ feature is used to implement compile-time polymorphism?",
+      "options": ["Virtual Functions", "Function Overloading", "Templates", "Both B and C"],
+      "answerIndex": 3,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What is the use of `friend` keyword in C++?",
+      "options": ["Access private members of another class", "To inherit privately", "To overload constructors", "To define constants"],
+      "answerIndex": 0,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What does the `mutable` keyword do in C++?",
+      "options": ["Makes a variable static", "Allows variable to change in a `const` function", "Marks variable as final", "Makes variable global"],
+      "answerIndex": 1,
+      "difficulty": "advanced"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "category": "HTML",
+  "questions": [
+    {
+      "question": "What does HTML stand for?",
+      "options": ["Hyper Trainer Marking Language", "HyperText Markup Language", "HyperText Markdown Language", "HyperTransfer Markup Language"],
+      "answer": 1,
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which tag is used to create a hyperlink in HTML?",
+      "options": ["<link>", "<a>", "<href>", "<hyper>"],
+      "answer": 1,
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which HTML tag is used to insert an image?",
+      "options": ["<img>", "<image>", "<src>", "<picture>"],
+      "answer": 0,
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which tag is used for the largest heading?",
+      "options": ["<h6>", "<h3>", "<h1>", "<head>"],
+      "answer": 2,
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which tag creates a line break?",
+      "options": ["<break>", "<br>", "<lb>", "<hr>"],
+      "answer": 1,
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the correct HTML element for inserting a line break?",
+      "options": ["<break>", "<br>", "<lb>", "<newline>"],
+      "answer": 1,
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which attribute specifies an alternate text for an image?",
+      "options": ["title", "alt", "src", "longdesc"],
+      "answer": 1,
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the correct HTML for creating a checkbox?",
+      "options": ["<input type='checkbox'>", "<check>", "<checkbox>", "<input checkbox>"],
+      "answer": 0,
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which element is used for the document metadata?",
+      "options": ["<meta>", "<data>", "<info>", "<head>"],
+      "answer": 0,
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does the 'action' attribute in a form do?",
+      "options": ["Specifies the HTTP method", "Specifies the script to process form data", "Defines the form name", "Links form to external page"],
+      "answer": 1,
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which input type allows you to select a number in HTML5?",
+      "options": ["text", "number", "range", "select"],
+      "answer": 1,
+      "difficulty": "hard"
+    },
+    {
+      "question": "How do you define a table header in HTML?",
+      "options": ["<head>", "<th>", "<thead>", "<trow>"],
+      "answer": 1,
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the purpose of the 'fieldset' tag?",
+      "options": ["To format field data", "To group related elements", "To create drop-downs", "To validate input"],
+      "answer": 1,
+      "difficulty": "hard"
+    },
+    {
+      "question": "What does the 'target=\"_blank\"' attribute do?",
+      "options": ["Opens link in the same window", "Opens link in a popup", "Opens link in new tab", "Preloads the link"],
+      "answer": 2,
+      "difficulty": "hard"
+    },
+    {
+      "question": "What’s the use of the 'label' tag in HTML forms?",
+      "options": ["Display output", "Style inputs", "Link text to inputs", "Disable input"],
+      "answer": 2,
+      "difficulty": "hard"
+    },
+    {
+      "question": "How do you embed a video in HTML5?",
+      "options": ["<media>", "<movie>", "<video>", "<embedvideo>"],
+      "answer": 2,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What does the 'autocomplete' attribute control?",
+      "options": ["Browser spellcheck", "Auto form submission", "Auto-suggest values", "Background validation"],
+      "answer": 2,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which tag supports native audio playback?",
+      "options": ["<sound>", "<media>", "<audio>", "<mp3>"],
+      "answer": 2,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What’s the correct HTML5 declaration?",
+      "options": ["<!HTML>", "<!doctype html>", "<html5>", "<doctype>"],
+      "answer": 1,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What is the use of 'aria-label' in HTML?",
+      "options": ["Defines video labels", "Sets image alt text", "Improves accessibility for screen readers", "Applies hover labels"],
+      "answer": 2,
+      "difficulty": "advanced"
+    }
+  ]
+}

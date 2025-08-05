@@ -1,0 +1,125 @@
+{
+  "category": "css",
+  "questions": [
+    {
+      "question": "What does CSS stand for?",
+      "options": ["Cascading Style Sheets", "Creative Style System", "Colorful Style Syntax", "Coded Style Script"],
+      "correctIndex": 0,
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which HTML tag is used to link an external CSS file?",
+      "options": ["<script>", "<css>", "<link>", "<style>"],
+      "correctIndex": 2,
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which property is used to change the background color?",
+      "options": ["bg-color", "color", "background-color", "style-background"],
+      "correctIndex": 2,
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which property is used to change the text color in CSS?",
+      "options": ["font-color", "text-color", "color", "text-style"],
+      "correctIndex": 2,
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which CSS property controls the text size?",
+      "options": ["text-style", "font-size", "text-size", "font-style"],
+      "correctIndex": 1,
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which selector targets all `<p>` tags inside a `<div>`?",
+      "options": ["div > p", "div + p", "div p", "div.p"],
+      "correctIndex": 2,
+      "difficulty": "medium"
+    },
+    {
+      "question": "How do you make a class selector in CSS?",
+      "options": ["#classname", ".classname", "$classname", "*classname"],
+      "correctIndex": 1,
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the default position value of an element?",
+      "options": ["absolute", "fixed", "relative", "static"],
+      "correctIndex": 3,
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which property is used to create space between elements?",
+      "options": ["margin", "padding", "border-spacing", "spacing"],
+      "correctIndex": 0,
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which unit is relative to the parent element?",
+      "options": ["px", "em", "vh", "%"],
+      "correctIndex": 1,
+      "difficulty": "medium"
+    },
+    {
+      "question": "How do you apply styles to only the first `<li>` in a list?",
+      "options": ["li.first", "li:first-child", "li:first", "li:first-of-type"],
+      "correctIndex": 1,
+      "difficulty": "hard"
+    },
+    {
+      "question": "What value of `position` allows you to fix an element in the viewport?",
+      "options": ["relative", "fixed", "absolute", "sticky"],
+      "correctIndex": 1,
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the z-index property used for?",
+      "options": ["Layer stacking", "Font layering", "Scroll position", "Flex alignment"],
+      "correctIndex": 0,
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which property allows flex items to wrap to the next line?",
+      "options": ["flex-wrap", "wrap", "flex-flow", "line-break"],
+      "correctIndex": 0,
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which display value makes a container a flexbox?",
+      "options": ["block", "inline", "flex", "grid"],
+      "correctIndex": 2,
+      "difficulty": "hard"
+    },
+    {
+      "question": "What does the `::before` pseudo-element do?",
+      "options": ["Applies style to the parent", "Inserts content before an element", "Hides an element", "Clones the element"],
+      "correctIndex": 1,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which of the following is a media query feature?",
+      "options": ["device-width", "screen-height", "browser-width", "viewport-height"],
+      "correctIndex": 0,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which CSS feature allows nesting and variables?",
+      "options": ["SCSS", "LESS", "SASS", "All of the above"],
+      "correctIndex": 3,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What does `calc(100% - 50px)` do?",
+      "options": ["Adds width", "Subtracts fixed px from relative %", "Only works with padding", "Throws error"],
+      "correctIndex": 1,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which property is used to animate transitions in CSS?",
+      "options": ["transition", "animate", "keyframes", "ease"],
+      "correctIndex": 0,
+      "difficulty": "advanced"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "category": "Computers",
+  "questions": [
+    {
+      "question": "What does CPU stand for?",
+      "options": ["Central Processing Unit", "Control Processing Unit", "Computer Power Unit", "Central Performance Unit"],
+      "answerIndex": 0,
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which of the following is an input device?",
+      "options": ["Monitor", "Printer", "Keyboard", "Speaker"],
+      "answerIndex": 2,
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which memory is volatile?",
+      "options": ["ROM", "Hard Disk", "RAM", "SSD"],
+      "answerIndex": 2,
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which one is the brain of the computer?",
+      "options": ["Monitor", "RAM", "CPU", "Keyboard"],
+      "answerIndex": 2,
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which key is used to delete characters to the left of the cursor?",
+      "options": ["Delete", "Backspace", "Insert", "Escape"],
+      "answerIndex": 1,
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which company developed the Windows OS?",
+      "options": ["Apple", "IBM", "Microsoft", "Google"],
+      "answerIndex": 2,
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which type of software is MS Word?",
+      "options": ["Operating System", "System Software", "Application Software", "Programming Software"],
+      "answerIndex": 2,
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which part of the computer stores data permanently?",
+      "options": ["RAM", "Cache", "ROM", "Hard Disk"],
+      "answerIndex": 3,
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the shortcut for 'Copy' in Windows?",
+      "options": ["Ctrl + X", "Ctrl + V", "Ctrl + C", "Ctrl + Z"],
+      "answerIndex": 2,
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which one is NOT a programming language?",
+      "options": ["Python", "Java", "Linux", "C++"],
+      "answerIndex": 2,
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which protocol is used to send emails?",
+      "options": ["HTTP", "FTP", "SMTP", "TCP"],
+      "answerIndex": 2,
+      "difficulty": "hard"
+    },
+    {
+      "question": "BIOS is used for?",
+      "options": ["Booting the system", "Running applications", "Storing data", "Connecting to the internet"],
+      "answerIndex": 0,
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the function of a router?",
+      "options": ["Connects networks", "Stores data", "Controls cursor", "Displays images"],
+      "answerIndex": 0,
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which of the following is a binary number?",
+      "options": ["1010", "1234", "ABCD", "9090"],
+      "answerIndex": 0,
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is a firewall used for?",
+      "options": ["Data storage", "Enhancing speed", "Protecting networks", "Updating drivers"],
+      "answerIndex": 2,
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which register holds the address of the next instruction to be executed?",
+      "options": ["Accumulator", "Program Counter", "Instruction Register", "Stack Pointer"],
+      "answerIndex": 1,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What is the full form of RAID?",
+      "options": ["Redundant Array of Inexpensive Disks", "Random Access Indexed Data", "Rapid Access Integrated Disks", "Read And Inserted Data"],
+      "answerIndex": 0,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What does DNS stand for?",
+      "options": ["Digital Number System", "Domain Name System", "Data Network Service", "Direct Network Server"],
+      "answerIndex": 1,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which computer architecture uses a single instruction stream and a single data stream?",
+      "options": ["MIMD", "SIMD", "SISD", "MISD"],
+      "answerIndex": 2,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which is NOT a valid type of CPU scheduling algorithm?",
+      "options": ["Round Robin", "First Come First Serve", "Shortest Job First", "Fast Track Scheduling"],
+      "answerIndex": 3,
+      "difficulty": "advanced"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "category": "Aptitude",
+  "questions": [
+    {
+      "question": "What is 25% of 160?",
+      "options": ["20", "30", "40", "50"],
+      "answerIndex": 2,
+      "difficulty": "easy"
+    },
+    {
+      "question": "A train 120m long runs at 60 km/h. How long will it take to cross a pole?",
+      "options": ["6.5 sec", "7.2 sec", "6 sec", "8 sec"],
+      "answerIndex": 2,
+      "difficulty": "easy"
+    },
+    {
+      "question": "The average of 5, 10, 15, 20, 25 is:",
+      "options": ["12", "15", "17", "20"],
+      "answerIndex": 1,
+      "difficulty": "easy"
+    },
+    {
+      "question": "If a dozen eggs cost ₹60, what is the cost of 8 eggs?",
+      "options": ["₹30", "₹40", "₹45", "₹50"],
+      "answerIndex": 1,
+      "difficulty": "easy"
+    },
+    {
+      "question": "A shopkeeper gains 20% profit on selling an item for ₹120. What is the cost price?",
+      "options": ["₹96", "₹100", "₹110", "₹115"],
+      "answerIndex": 1,
+      "difficulty": "easy"
+    },
+
+    {
+      "question": "If 6 men can do a work in 10 days, how many days will 3 men take?",
+      "options": ["5", "15", "20", "10"],
+      "answerIndex": 2,
+      "difficulty": "medium"
+    },
+    {
+      "question": "A sum of ₹1000 becomes ₹1200 in 2 years at simple interest. What is the rate of interest?",
+      "options": ["10%", "8%", "12%", "20%"],
+      "answerIndex": 0,
+      "difficulty": "medium"
+    },
+    {
+      "question": "A man can row 6 km/h in still water. If the river runs at 2 km/h, how long to cover 16 km downstream?",
+      "options": ["2 hrs", "3 hrs", "4 hrs", "5 hrs"],
+      "answerIndex": 1,
+      "difficulty": "medium"
+    },
+    {
+      "question": "A shopkeeper marks his goods 30% above cost and allows 10% discount. What is the profit percent?",
+      "options": ["17%", "20%", "19%", "15%"],
+      "answerIndex": 2,
+      "difficulty": "medium"
+    },
+    {
+      "question": "What number should be added to 27 to get a mean of 40 in 4 numbers?",
+      "options": ["145", "133", "123", "128"],
+      "answerIndex": 1,
+      "difficulty": "medium"
+    },
+
+    {
+      "question": "A sum triples in 4 years at compound interest. In how many years will it become 9 times?",
+      "options": ["8", "12", "10", "6"],
+      "answerIndex": 0,
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the selling price of an item if the loss is 10% and cost price is ₹300?",
+      "options": ["₹270", "₹280", "₹260", "₹275"],
+      "answerIndex": 0,
+      "difficulty": "hard"
+    },
+    {
+      "question": "If A is 20% more than B, then B is what percent less than A?",
+      "options": ["16.66%", "20%", "25%", "10%"],
+      "answerIndex": 0,
+      "difficulty": "hard"
+    },
+    {
+      "question": "A tank fills in 5 hours and empties in 8 hours. What part is filled in 1 hour?",
+      "options": ["1/40", "3/40", "5/24", "3/8"],
+      "answerIndex": 1,
+      "difficulty": "hard"
+    },
+    {
+      "question": "Two numbers are in the ratio 3:4. Their LCM is 180. What is the smaller number?",
+      "options": ["45", "60", "30", "90"],
+      "answerIndex": 0,
+      "difficulty": "hard"
+    },
+
+    {
+      "question": "A can do a work in 15 days, B in 20 days. In how many days will they complete together?",
+      "options": ["8.57", "9", "17.5", "12"],
+      "answerIndex": 0,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "A train 240 m long crosses a platform 360 m in 30 seconds. Speed in km/h?",
+      "options": ["72", "60", "90", "84"],
+      "answerIndex": 0,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What annual compound interest rate doubles ₹8000 in 4 years?",
+      "options": ["15.25%", "16.25%", "18.92%", "17.67%"],
+      "answerIndex": 2,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What is the square root of 2025?",
+      "options": ["45", "50", "55", "60"],
+      "answerIndex": 0,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "A mixture contains milk and water in 5:1 ratio. 12L of water is added, new ratio is 5:2. Original milk quantity?",
+      "options": ["30L", "25L", "20L", "35L"],
+      "answerIndex": 0,
+      "difficulty": "advanced"
+    }
+  ]
+}

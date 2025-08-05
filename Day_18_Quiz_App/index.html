@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Quiz App</h1>
+
+    <!-- Category Selection -->
+    <div id="start-box">
+      <label for="category">Choose Category:</label>
+      <select id="category">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascript">JavaScript</option>
+        <option value="c++">C++</option>
+        <option value="general_knowledge">General Knowledge</option>
+        <option value="computers">Computers</option>
+        <option value="aptitude">Aptitude</option>
+      </select>
+      <button id="start-btn">Start Quiz</button>
+    </div>
+
+    <!-- Quiz Box -->
+    <div id="quiz-box" class="hidden">
+      <div id="question"></div>
+      <div id="options"></div>
+      <button id="next-btn">Next</button>
+    </div>
+
+    <!-- Result -->
+    <div id="result-box" class="hidden">
+      <h2>Quiz Finished!</h2>
+      <p>Your Score: <span id="score"></span>/5</p>
+      <button onclick="location.reload()">Restart Quiz</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

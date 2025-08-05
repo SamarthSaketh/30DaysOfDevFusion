@@ -1,0 +1,128 @@
+{
+  "category": "javascript",
+  "questions": [
+    {
+      "question": "What is the correct syntax to output 'Hello World' in JavaScript?",
+      "options": ["echo 'Hello World';", "print('Hello World');", "console.log('Hello World');", "printf('Hello World');"],
+      "answerIndex": 2,
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which company developed JavaScript?",
+      "options": ["Microsoft", "Sun Microsystems", "Netscape", "Oracle"],
+      "answerIndex": 2,
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in JavaScript?",
+      "options": ["var", "int", "let", "Both A and C"],
+      "answerIndex": 3,
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which of the following is a JavaScript data type?",
+      "options": ["Number", "String", "Boolean", "All of the above"],
+      "answerIndex": 3,
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the output of typeof null in JavaScript?",
+      "options": ["object", "null", "undefined", "boolean"],
+      "answerIndex": 0,
+      "difficulty": "easy"
+    },
+
+    {
+      "question": "What is the result of '2' + 2 in JavaScript?",
+      "options": ["4", "22", "NaN", "undefined"],
+      "answerIndex": 1,
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which method converts JSON string into a JavaScript object?",
+      "options": ["JSON.parse()", "JSON.stringify()", "JSON.convert()", "JSON.toObject()"],
+      "answerIndex": 0,
+      "difficulty": "medium"
+    },
+    {
+      "question": "How do you write an arrow function in JavaScript?",
+      "options": ["function() => {}", "() => {}", "-> () {}", "(=>) => {}"],
+      "answerIndex": 1,
+      "difficulty": "medium"
+    },
+    {
+      "question": "What will '0 == false' return in JavaScript?",
+      "options": ["true", "false", "undefined", "error"],
+      "answerIndex": 0,
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which of the following methods adds an element to the end of an array?",
+      "options": [".push()", ".pop()", ".shift()", ".unshift()"],
+      "answerIndex": 0,
+      "difficulty": "medium"
+    },
+
+    {
+      "question": "What does the '===' operator do in JavaScript?",
+      "options": ["Checks equality of value only", "Assigns a value", "Checks equality of value and type", "Compares references only"],
+      "answerIndex": 2,
+      "difficulty": "hard"
+    },
+    {
+      "question": "What will be the output of typeof NaN in JavaScript?",
+      "options": ["NaN", "undefined", "object", "number"],
+      "answerIndex": 3,
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is a closure in JavaScript?",
+      "options": ["A function inside an object", "An object inside a function", "A function having access to variables from its parent scope", "A way to close a function"],
+      "answerIndex": 2,
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which statement best describes event bubbling?",
+      "options": ["Events flow from target to root", "Events flow from root to target", "Events flow from child to parent", "Events flow from parent to child"],
+      "answerIndex": 2,
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which object is the root of the DOM hierarchy?",
+      "options": ["body", "html", "document", "window"],
+      "answerIndex": 3,
+      "difficulty": "hard"
+    },
+
+    {
+      "question": "What is the purpose of the 'use strict' directive?",
+      "options": ["Enables secure mode", "Enforces stricter parsing and error handling", "Minifies code", "Runs the code in strict order"],
+      "answerIndex": 1,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "How are Promises used in JavaScript?",
+      "options": ["For animations", "To handle asynchronous operations", "To manipulate DOM", "For declaring variables"],
+      "answerIndex": 1,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What is the difference between call(), apply(), and bind() in JavaScript?",
+      "options": ["They all do the same thing", "call and apply execute, bind returns function", "bind and call execute, apply returns function", "None of the above"],
+      "answerIndex": 1,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which method is used to debounce a function in JavaScript?",
+      "options": ["debounce()", "throttle()", "setTimeout()", "You have to write it manually using setTimeout"],
+      "answerIndex": 3,
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What is the Event Loop in JavaScript?",
+      "options": ["A loop that handles user input", "A construct for synchronous operations", "A mechanism that handles async callbacks via the call stack and message queue", "An infinite loop for performance"],
+      "answerIndex": 2,
+      "difficulty": "advanced"
+    }
+  ]
+}
