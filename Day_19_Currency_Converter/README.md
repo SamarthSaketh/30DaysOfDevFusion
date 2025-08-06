@@ -52,4 +52,4 @@ Day_19_Currency_Converter/
 https://github.com/user-attachments/assets/c485a89b-26c2-4ffa-b821-2301a035034c
 
 
-[![View on LinkedIn](https://img.shields.io/badge/View%20on%20LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)]()
+[![View on LinkedIn](https://img.shields.io/badge/View%20on%20LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-webdev-javascript-activity-7358912628104065026-zxu4?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA)
