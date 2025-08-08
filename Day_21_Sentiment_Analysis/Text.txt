@@ -1,0 +1,14 @@
+ Positive
+"I’m really impressed with how well this works!"
+
+"The service was excellent and the staff were so friendly."
+
+"This app made my day so much better!"
+
+
+ Negative
+"This is the worst thing I have ever used."
+
+"I’m extremely disappointed with the experience."
+
+"Nothing works as expected, total waste of time."
