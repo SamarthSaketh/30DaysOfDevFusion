@@ -1,4 +1,4 @@
-# 🔐 Day 20 – Advanced Login & Signup System with Session Management
+# 🔐 Day 20 –  Login & Signup System 
 
 ## 💡 Description
 
@@ -83,5 +83,3 @@ https://github.com/user-attachments/assets/cba03e30-b05c-44e6-9002-4575f68e806d
 
 
 [![View on LinkedIn](https://img.shields.io/badge/View%20on%20LinkedIn-%230077B5.svg?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-loginsystem-authentication-activity-7359610933586915328--yXf?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA)
-
-
