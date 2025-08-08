@@ -13,5 +13,8 @@ Day_13_Image_Gallery/Day_13_Image_Gallery_Original.mp4
 Day_14_Scientific_Calculator_Original.mp4
 Day_15_Chatbot_Original.mp4
 Day_16_PDFToolkit_Original.mp4
+Day_21_Sentiment_Analysis_Original.mp4
+sentiment_model.pkl
+vectorizer.pkl
 .vscode/
 __pycache__

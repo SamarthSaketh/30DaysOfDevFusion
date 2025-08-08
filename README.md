@@ -38,7 +38,7 @@ To level up my development skills by building **real-world, hands-on projects** 
 | 18  | [📁 Quiz App](./Day_18_Quiz_App) | JavaScript | ✅Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-quizapp-webdevelopment-activity-7358515316223594500-QMow?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |05 August 2025 |Tuesday |
 | 19  | [📁 Currency_Converter](./Day_19_Currency_Converter) | HTML, CSS, JavaScript | ✅Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-webdev-javascript-activity-7358912628104065026-zxu4/) |06 August 2025 |Wednesday|
 | 20  | [📁 Login Auth System](./Day_20_Login_Auth_System) | Node.js, Express, MongoDB | ✅Done |[View Post🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-loginsystem-authentication-activity-7359610933586915328--yXf) |07 August 2025 |Thursday|
-| 21  | Sentiment Analysis | Python, Scikit-learn, NLTK | Coming Soon 🔜 | | | |
+| 21  | [📁 Sentiment Analysis](./Day_21_Sentiment_Analysis) | Python, Scikit-learn, NLTK | ✅Done |[View Post🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-loginsystem-authentication-activity-7359610933586915328--yXf) |08 August 2025 |Friday|
 | 22  | Random Quote Generator | JavaScript, HTML, CSS | Coming Soon 🔜 | | | |
 | 23  | E-commerce Product Page | React, TailwindCSS | Coming Soon 🔜 | | | |
 | 24  | Iris Flower ML App | Python, Scikit-learn | Coming Soon 🔜 | | | |
