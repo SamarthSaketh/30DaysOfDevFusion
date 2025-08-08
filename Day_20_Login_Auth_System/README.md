@@ -22,7 +22,6 @@ It features **session-based authentication**, **password hashing**, a stylish **
   - Minimum 5 characters
 * ❌ Register button disabled until password is valid
 * 🎊 Confetti animation on successful registration
-* 📱 Fully responsive design
 
 ---
 
