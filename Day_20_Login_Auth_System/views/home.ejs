@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DevAuth - Home</title>
+  <link rel="stylesheet" href="/home.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <h1 class="logo">DevAuth</h1>
+    <nav>
+      <% if (user) { %>
+        <span class="welcome-text">Welcome, <%= user.username %></span>
+        <a href="/logout" class="btn btn-danger">Logout</a>
+      <% } else { %>
+        <a href="/login" class="btn">Login</a>
+        <a href="/register" class="btn btn-secondary">Sign Up</a>
+      <% } %>
+    </nav>
+  </header>
+
+  <main class="content-sections">
+    <h2 class="section-title">Explore DevTech Domains</h2>
+
+    <section class="card">
+      <h3>💻 Full Stack Development</h3>
+      <p>Master both frontend (HTML, CSS, JS, React) and backend (Node.js, MongoDB, Express) development. Learn MVC architecture, create RESTful APIs, manage sessions, and deploy to platforms like Vercel, Netlify, or Render.</p>
+      <ul>
+        <li>🔗 Git & GitHub Workflow</li>
+        <li>📦 API Authentication (JWT, OAuth)</li>
+        <li>📁 MVC Pattern, SSR & CSR explained</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h3>🐍 Python Programming</h3>
+      <p>Use Python for scripting, data science, and web development. From Flask/Django to data pipelines, Python enables automation, API servers, and data analysis. Libraries include Pandas, NumPy, Selenium, TensorFlow.</p>
+      <ul>
+        <li>📊 Data analysis with Pandas/Matplotlib</li>
+        <li>🔁 Async programming with asyncio</li>
+        <li>🌐 Web scraping & automation</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h3>📜 JavaScript Mastery</h3>
+      <p>JavaScript powers interactive UIs, real-time updates, and backend logic with Node.js. Use ES6+ features, DOM APIs, and frameworks like React, Vue, or Svelte. Build SPAs and real-time chat apps with WebSocket support.</p>
+      <ul>
+        <li>🧠 DOM Manipulation & Events</li>
+        <li>⚡ Node.js & Express backend</li>
+        <li>🔧 Tooling: Vite, Webpack, Babel</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h3>🎮 C# Programming</h3>
+      <p>C# is powerful for desktop, web, and Unity game development. Learn object-oriented programming (OOP), async/await, LINQ queries, and cross-platform development with .NET MAUI or Xamarin.</p>
+      <ul>
+        <li>🏗️ Design patterns in C#</li>
+        <li>📊 Windows Forms & WPF apps</li>
+        <li>🎮 Unity scripting for games</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h3>🧱 .NET Framework & Blazor</h3>
+      <p>Build scalable apps using ASP.NET MVC, Razor Pages, Web API, and Blazor. Create real-time dashboards, backend APIs, and connect SQL Server or MongoDB databases efficiently with EF Core.</p>
+      <ul>
+        <li>⚙️ Dependency Injection</li>
+        <li>🔐 JWT-based Auth in .NET</li>
+        <li>📈 Razor components and UI binding</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h3>🤖 Artificial Intelligence</h3>
+      <p>Explore neural networks, transformers, and LLMs like ChatGPT. Build intelligent assistants, AI-based recommendations, and autonomous agents using HuggingFace, OpenAI, and LangChain.</p>
+      <ul>
+        <li>🧠 GPT & LLaMA models</li>
+        <li>🗣️ NLP with spaCy, NLTK</li>
+        <li>🤖 Bot development & automation</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h3>📈 Machine Learning</h3>
+      <p>Use scikit-learn, XGBoost, and Keras to classify, predict, and cluster data. Build ML pipelines, tune hyperparameters, and apply cross-validation techniques for robust model performance.</p>
+      <ul>
+        <li>📉 Supervised & Unsupervised Learning</li>
+        <li>📦 Model evaluation techniques</li>
+        <li>🧪 Jupyter + Google Colab workflows</li>
+      </ul>
+    </section>
+
+    <div class="cta-buttons">
+      <a href="/register" class="btn btn-primary">Get Started Now</a>
+      <a href="/login" class="btn btn-outline">Already a Member?</a>
+    </div>
+  </main>
+</body>
+</html>
