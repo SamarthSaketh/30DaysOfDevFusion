@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+/* CSS Variables for theming */
+:root {
+  --main-bg: #6a11cb;
+  --main-color: white;
+  --accent-color: #6a11cb;
+  --cell-bg: rgba(255 255 255 / 0.15);
+  --cell-hover-bg: rgba(255 255 255 / 0.3);
+  --win-bg: white;
+  --win-color: var(--accent-color);
+  --win-shadow: 0 0 12px 3px var(--accent-color);
+  --button-bg: rgba(255 255 255 / 0.2);
+  --button-hover-bg: rgba(255 255 255 / 0.4);
+}
+
+/* Base styles */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0; padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  color: var(--main-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: background 1s ease, color 1s ease;
+}
+
+/* PVP theme */
+body.pvp {
+  background: var(--main-bg);
+}
+
+/* Game container */
+.game-container {
+  text-align: center;
+  max-width: 320px;
+  width: 100%;
+  user-select: none;
+}
+
+/* Headings & Status */
+h1#status {
+  margin: 0 0 20px 0;
+  font-weight: normal;
+}
+
+/* Board */
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 90px);
+  grid-template-rows: repeat(3, 90px);
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Cell */
+.cell {
+  background: var(--cell-bg);
+  border-radius: 10px;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.cell:hover:not([aria-disabled="true"]) {
+  background: var(--cell-hover-bg);
+}
+
+.cell[aria-disabled="true"] {
+  cursor: not-allowed;
+}
+
+.cell.win {
+  background: var(--win-bg);
+  color: var(--win-color);
+  font-weight: 700;
+  box-shadow: var(--win-shadow);
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Buttons */
+button {
+  background: var(--button-bg);
+  border: none;
+  padding: 12px 20px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--main-color);
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: var(--button-hover-bg);
+}
+
+/* PVC theme */
+body.pvc {
+  background: black;
+  color: #00ff99;
+  font-family: 'Orbitron', sans-serif;
+  --main-color: #00ff99;
+  --accent-color: #00ff99;
+  --cell-bg: rgba(0, 255, 153, 0.05);
+  --cell-hover-bg: rgba(0, 255, 153, 0.2);
+  --win-bg: #00ff99;
+  --win-color: black;
+  --win-shadow: 0 0 20px 6px #00ff99;
+  --button-bg: transparent;
+  --button-hover-bg: rgba(0, 255, 153, 0.2);
+}
+
+body.pvc h1#status,
+body.pvc button {
+  text-shadow: 0 0 4px #00ff99;
+}
+
+body.pvc .cell {
+  box-shadow: 0 0 8px #00ff99;
+}
+
+/* AI Activation Layer */
+#aiActivateLayer {
+  position: fixed;
+  inset: 0;
+  background: black;
+  z-index: 1000;
+  display: none;
+}
+
+#gridLines {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(to right, #00ff9966 1px, transparent 1px),
+    linear-gradient(to bottom, #00ff9966 1px, transparent 1px);
+  background-size: 40px 40px;
+  animation: gridMove 5s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes gridMove {
+  0% { background-position: 0 0, 0 0; }
+  100% { background-position: 40px 40px, 40px 40px; }
+}
+
+#glitchText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 900;
+  font-size: 2rem; 
+  color: #00ff99;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  user-select: none;
+  animation: glitch 1.5s infinite;
+  pointer-events: none;
+}
+
+@keyframes glitch {
+  /* ... (kept your original glitch keyframes) ... */
+}
+
+.shape {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #00ff99aa;
+  opacity: 0.7;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* Desktop Styles */
+@media (min-width: 600px) {
+  .game-container {
+    max-width: 400px;
+  }
+
+  .board {
+    grid-template-columns: repeat(3, 110px);
+    grid-template-rows: repeat(3, 110px);
+  }
+
+  .cell {
+    font-size: 3rem;
+  }
+
+  #glitchText {
+    font-size: 3.5rem;
+  }
+}

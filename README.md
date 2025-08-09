@@ -12,7 +12,7 @@ Over the next 30 days, I'll be building **30 unique projects**, exploring a fusi
 
 To level up my development skills by building **real-world, hands-on projects** daily — covering front-end, back-end, APIs, data handling, and intelligent systems.
 ---
-![Progress](https://img.shields.io/badge/Progress-21%2F30-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-22%2F30-brightgreen)
 
 ## 📂 Project Tracker
 
@@ -39,13 +39,13 @@ To level up my development skills by building **real-world, hands-on projects** 
 | 19  | [📁 Currency_Converter](./Day_19_Currency_Converter) | HTML, CSS, JavaScript | ✅Done |[View Post 🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-webdev-javascript-activity-7358912628104065026-zxu4/) |06 August 2025 |Wednesday|
 | 20  | [📁 Login Auth System](./Day_20_Login_Auth_System) | Node.js, Express, MongoDB | ✅Done |[View Post🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-loginsystem-authentication-activity-7359610933586915328--yXf) |07 August 2025 |Thursday|
 | 21  | [📁 Sentiment Analysis](./Day_21_Sentiment_Analysis) | Python, Scikit-learn, NLTK | ✅Done |[View Post🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-loginsystem-authentication-activity-7359610933586915328--yXf) |08 August 2025 |Friday|
-| 22  | Random Quote Generator | JavaScript, HTML, CSS | Coming Soon 🔜 | | | |
+| 22  | [📁 Tic-Tac-Toe](./Day_22_Tic_Tac_Toe_Game) | HTML, CSS, JavaScript | ✅Done  |[View Post🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-tictactoe-javascript-activity-7360035160848785408-pYOf?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |09 August 2025 |Saturday|
 | 23  | E-commerce Product Page | React, TailwindCSS | Coming Soon 🔜 | | | |
 | 24  | Iris Flower ML App | Python, Scikit-learn | Coming Soon 🔜 | | | |
 | 25  | Book Inventory | .NET Core, SQL Server | Coming Soon 🔜 | | | |
 | 26  | Chat App | Node.js, Socket.IO | Coming Soon 🔜 | | | |
 | 27  | Web Scraper | Python, BeautifulSoup | Coming Soon 🔜 | | | |
-| 28  | Currency Converter | JavaScript, API | Coming Soon 🔜 | | | |
+| 28  | Stone Paper Scissors | JavaScript, HTML, CSS | Coming Soon 🔜 | | | |
 | 29  | Portfolio Website | HTML, CSS, JavaScript | Coming Soon 🔜 | | | |
 | 30  | Project Showcase Site | HTML, CSS, JavaScript | Coming Soon 🔜 | | | |
 
