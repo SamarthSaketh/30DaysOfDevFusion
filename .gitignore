@@ -19,3 +19,4 @@ sentiment_model.pkl
 vectorizer.pkl
 .vscode/
 __pycache__
+.gitignore
