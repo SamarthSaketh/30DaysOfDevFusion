@@ -41,13 +41,13 @@ To level up my development skills by building **real-world, hands-on projects** 
 | 21  | [📁 Sentiment Analysis](./Day_21_Sentiment_Analysis) | Python, Scikit-learn, NLTK | ✅Done |[View Post🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-loginsystem-authentication-activity-7359610933586915328--yXf) |08 August 2025 |Friday|
 | 22  | [📁 Tic-Tac-Toe](./Day_22_Tic_Tac_Toe_Game) | HTML, CSS, JavaScript | ✅Done  |[View Post🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-tictactoe-javascript-activity-7360035160848785408-pYOf?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |09 August 2025 |Saturday|
 | 23  | [📁E-commerce Product Page](./Day_23_E-commerce_Product_Page) | React, TailwindCSS | ✅Done  |[View Post🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-reactjs-ecommerce-activity-7360275177898741761-Yqxd?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA)|10 August 2025 |Sunday |
-| 24  | Iris Flower ML App | Python, Scikit-learn | Coming Soon 🔜 | | | |
-| 25  | Book Inventory | .NET Core, SQL Server | Coming Soon 🔜 | | | |
-| 26  | Chat App | Node.js, Socket.IO | Coming Soon 🔜 | | | |
-| 27  | Web Scraper | Python, BeautifulSoup | Coming Soon 🔜 | | | |
-| 28  | Stone Paper Scissors | JavaScript, HTML, CSS | Coming Soon 🔜 | | | |
-| 29  | Portfolio Website | HTML, CSS, JavaScript | Coming Soon 🔜 | | | |
-| 30  | Project Showcase Site | HTML, CSS, JavaScript | Coming Soon 🔜 | | | |
+| 24 | Stone Paper Scissors | JavaScript, HTML, CSS | Coming Soon 🔜 | 11 August 2025 | Monday |
+| 25 | Book Inventory | .NET Core, SQL Server | Coming Soon 🔜 | 12 August 2025 | Tuesday |
+| 26 | Chat App | Node.js, Socket.IO | Coming Soon 🔜 | 13 August 2025 | Wednesday |
+| 27 | Web Scraper | Python, BeautifulSoup | Coming Soon 🔜 | 14 August 2025 | Thursday |
+| 28 | Keyboard Typing Test | React | Coming Soon 🔜 | 15 August 2025 | Friday |
+| 29 | Portfolio Website | HTML, CSS, JavaScript | Coming Soon 🔜 | 16 August 2025 | Saturday |
+| 30 | Project Showcase Site | HTML, CSS, JavaScript | Coming Soon 🔜 | 17 August 2025 | Sunday |
 
 
 
@@ -93,6 +93,7 @@ Each day I will:
 
 This repo will be updated daily with cool, practical, and open-source-friendly projects!  
 Let’s build something amazing — one project at a time. 💪🔥
+
 
 
 
