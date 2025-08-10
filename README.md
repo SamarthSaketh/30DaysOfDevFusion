@@ -12,7 +12,7 @@ Over the next 30 days, I'll be building **30 unique projects**, exploring a fusi
 
 To level up my development skills by building **real-world, hands-on projects** daily — covering front-end, back-end, APIs, data handling, and intelligent systems.
 ---
-![Progress](https://img.shields.io/badge/Progress-22%2F30-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-23%2F30-brightgreen)
 
 ## 📂 Project Tracker
 
@@ -40,7 +40,7 @@ To level up my development skills by building **real-world, hands-on projects** 
 | 20  | [📁 Login Auth System](./Day_20_Login_Auth_System) | Node.js, Express, MongoDB | ✅Done |[View Post🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-loginsystem-authentication-activity-7359610933586915328--yXf) |07 August 2025 |Thursday|
 | 21  | [📁 Sentiment Analysis](./Day_21_Sentiment_Analysis) | Python, Scikit-learn, NLTK | ✅Done |[View Post🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-loginsystem-authentication-activity-7359610933586915328--yXf) |08 August 2025 |Friday|
 | 22  | [📁 Tic-Tac-Toe](./Day_22_Tic_Tac_Toe_Game) | HTML, CSS, JavaScript | ✅Done  |[View Post🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-tictactoe-javascript-activity-7360035160848785408-pYOf?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA) |09 August 2025 |Saturday|
-| 23  | E-commerce Product Page | React, TailwindCSS | Coming Soon 🔜 | | | |
+| 23  | [📁E-commerce Product Page](./Day_23_E-commerce_Product_Page) | React, TailwindCSS | ✅Done  |[View Post🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-reactjs-ecommerce-activity-7360275177898741761-Yqxd?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA)|10 August 2025 |Sunday |
 | 24  | Iris Flower ML App | Python, Scikit-learn | Coming Soon 🔜 | | | |
 | 25  | Book Inventory | .NET Core, SQL Server | Coming Soon 🔜 | | | |
 | 26  | Chat App | Node.js, Socket.IO | Coming Soon 🔜 | | | |
