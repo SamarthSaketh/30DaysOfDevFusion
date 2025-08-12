@@ -14,7 +14,7 @@ Players compete against the computer, with the result of each round displayed in
 * 🎮 Play against the computer
 * 🖼️ Uses custom stone, paper, and scissors icons
 * 📊 Real-time score tracking
-* 🔄 Reset button to start fresh
+* 🔄 Reset button to start fresh again
 
 ---
 
