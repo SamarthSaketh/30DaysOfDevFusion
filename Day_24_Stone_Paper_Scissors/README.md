@@ -23,9 +23,7 @@ Players compete against the computer, with the result of each round displayed in
 * **HTML**
 * **CSS**
 * **JavaScript**
-
 ---
-
 ## ⚙️ How to Run
 
 1. Download or clone the project folder
