@@ -1,6 +1,6 @@
 
 
-#  Stone Paper Scissors
+#  📌Day 24 – Stone Paper Scissors
 
 ## 📝 Description
 
