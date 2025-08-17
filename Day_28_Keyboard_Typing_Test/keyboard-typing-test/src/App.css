@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6f9;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 700px;
+  max-width: 90%;
+  text-align: center;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.dark {
+  background: #1e1e1e;
+  color: #fff;
+}
+
+.dark .card {
+  background: #2c2c2c;
+  color: #fff;
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  resize: none;
+  margin-top: 15px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 16px;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #0078ff;
+  color: #fff;
+}
+body.dark {
+  background: #1e1e1e;
+  color: #eee;
+}
+
+.dark .card {
+  background: #2c2c2c;
+  color: #eee;
+}
+
+.dark textarea {
+  background: #1e1e1e;
+  color: #fff;
+  border: 1px solid #555;
+}
+.correct-word {
+  color: #4caf50; /* green */
+}
+
+.incorrect-word {
+  color: #ff4d4d; /* red */
+}
+
+.active-word {
+  background: yellow;
+  color: black;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+.app-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: var(--bg);
+  color: var(--text);
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.progress-bar {
+  height: 8px;
+  background: #ddd;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  transition: width 1s linear, background 0.5s;
+}
+
+.correct-word { color: #4caf50; }
+.incorrect-word { color: #f44336; }
+.active-word { background: yellow; color: black; font-weight: bold; padding: 2px 6px; border-radius: 4px; }
+
+:root {
+  --bg: #fff;
+  --text: #000;
+}
+.dark {
+  --bg: #121212;
+  --text: #fff;
+}
+.progress-bar {
+  height: 8px;
+  background: #ddd;
+  border-radius: 4px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  transition: width 1s linear, background 0.3s;
+}

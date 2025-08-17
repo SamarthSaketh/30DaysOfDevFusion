@@ -12,7 +12,7 @@ Over the next 30 days, I'll be building **30 unique projects**, exploring a fusi
 
 To level up my development skills by building **real-world, hands-on projects** daily — covering front-end, back-end, APIs, data handling, and intelligent systems.
 ---
-![Progress](https://img.shields.io/badge/Progress-27%2F30-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-28%2F30-brightgreen)
 
 ## 📂 Project Tracker
 
@@ -45,7 +45,7 @@ To level up my development skills by building **real-world, hands-on projects** 
 | 25 | [📁Book Inventory](./Day_25_Book_Inventory) | React, Node.js, Express, MongoDB | ✅Done |[View Post🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-reactjs-javascript-activity-7362112394195558400-BNI5?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA)| 12 August 2025 | Tuesday |
 | 26 | [📁Memory Game](./Day_26_Memory_Game) | JavaScript, HTML, CSS | ✅Done |[View Post🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-javascript-webdevelopment-activity-7362184465546166272-rnVb?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA)| 13 August 2025 | Wednesday |
 | 27 | [📁 Pokemon Battle](./Day_27_Pokemon_Battle) | React | ✅Done  |[View Post🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-reactjs-javascript-activity-7362537541733937153-vmzq?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA)| 14 August 2025 | Thursday |
-| 28 | Keyboard Typing Test | React | Coming Soon 🔜 |[View Post🔗]| 15 August 2025 | Friday |
+| 28 | [📁Keyboard Typing Test](./Day_28_Keyboard_Typing_Test) | React | ✅Done  |[View Post🔗](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-reactjs-javascript-activity-7362537541733937153-vmzq?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA)| 15 August 2025 | Friday |
 | 29 | Portfolio Website | HTML, CSS, JavaScript | Coming Soon 🔜 |[View Post🔗]| 16 August 2025 | Saturday |
 | 30 | Project Showcase Site | HTML, CSS, JavaScript | Coming Soon 🔜 |[View Post🔗]| 17 August 2025 | Sunday |
 
