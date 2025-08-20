@@ -10,7 +10,7 @@ Over the next 30 days, I'll be building **30 unique projects**, exploring a fusi
 
 ## 🎯 Objective
 
-To level up my development skills by building **real-world, hands-on projects** daily — covering front-end, back-end, APIs, data handling, and intelligent systems.
+To level up my development skills by building **real-world, hands-on projects** daily — covering front-end, back-end, APIs and intelligent systems.
 ---
 ![Progress](https://img.shields.io/badge/Progress-28%2F30-brightgreen)
 
@@ -93,6 +93,7 @@ Each day I will:
 
 This repo will be updated daily with cool, practical, and open-source-friendly projects!  
 Let’s build something amazing — one project at a time. 💪🔥
+
 
 
 
