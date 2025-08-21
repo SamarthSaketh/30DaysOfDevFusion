@@ -4,7 +4,7 @@
 Welcome to my **#30DaysOfDevFusion** challenge!  
 Over the next 30 days, I'll be building **30 unique projects**, exploring a fusion of technologies including:
 
-> 💻 **Full Stack** | 🐍 **Python** | 🌐 **JavaScript** | ⚙️ **C# & .NET** | 🤖 **AI/ML**
+ 💻 **Full Stack** | 🐍 **Python** | 🌐 **JavaScript** | ⚙️ **C# & .NET** | 🤖 **AI/ML**
 
 ---
 
@@ -93,6 +93,7 @@ Each day I will:
 
 This repo will be updated daily with cool, practical, and open-source-friendly projects!  
 Let’s build something amazing — one project at a time. 💪🔥
+
 
 
 
