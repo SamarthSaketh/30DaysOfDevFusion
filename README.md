@@ -74,7 +74,7 @@ Each day I will:
 2. Build and test the project
 3. Add a `README.md` inside that folder
 4. Commit and push to GitHub
-5. Share progress on [LinkedIn](https://www.linkedin.com/in/vuppaladhadium-sai-samarth-saketh-036679201/)
+5. Share progress on  [LinkedIn](https://www.linkedin.com/in/vuppaladhadium-sai-samarth-saketh-036679201/) Platform
 
 ---
 
