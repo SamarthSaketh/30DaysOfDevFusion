@@ -1,0 +1,134 @@
+.theme-toggle {
+  width: 60px;
+  height: 30px;
+  background: #ccc;
+  border-radius: 30px;
+  position: relative;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.toggle-circle {
+  width: 28px;
+  height: 28px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.toggle-circle.dark {
+  left: 31px;
+  background: #333;
+}
+
+.icon {
+  font-size: 16px;
+  color: #ff9800;
+  transition: transform 0.3s ease;
+}
+
+.sun {
+  color: #f39c12;
+}
+
+.moon {
+  color: #f1c40f;
+}
+
+/* Light Theme */
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* Dark Theme */
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+/* Theme Toggle Container */
+.theme-toggle-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+/* Hide the checkbox */
+.theme-toggle-wrapper input {
+  display: none;
+}
+
+/* The toggle track */
+.toggle-label {
+  width: 60px;
+  height: 30px;
+  background: #ccc;
+  border-radius: 30px;
+  display: block;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.3s ease;
+}
+
+/* Toggle knob */
+.toggle-icon {
+  width: 28px;
+  height: 28px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  font-size: 18px;
+}
+
+/* Toggle ON state */
+.theme-toggle-wrapper input:checked + .toggle-label {
+  background: #444;
+}
+
+.theme-toggle-wrapper input:checked + .toggle-label .toggle-icon {
+  left: 31px;
+}
+
+/* Sun and Moon Icons using CSS pseudo-elements */
+.toggle-icon::before {
+  content: "\2600"; /* Sun symbol */
+  color: #f39c12;
+  transition: opacity 0.3s ease;
+}
+
+.theme-toggle-wrapper input:checked + .toggle-label .toggle-icon::before {
+  content: "\263E"; /* Moon symbol */
+  color: #f1c40f;
+}
+
+/* Dark and Light Mode Transitions */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.light-mode {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f8f9fa;
+}
+.navbar-brand {
+  font-family: 'Beyno', sans-serif;
+}
