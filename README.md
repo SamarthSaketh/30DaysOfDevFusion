@@ -4,9 +4,10 @@
 Welcome to my **#30DaysOfDevFusion** challenge!  
 Over the next 30 days, I'll be building **30 unique projects**, exploring a fusion of technologies including:
 
- 💻 **Full Stack** | 🐍 **Python** | 🌐 **JavaScript** | ⚙️ **C# & .NET** | 🤖 **AI/ML**
+ 💻 **Full Stack** | 🐍 **Python** | 🌐 **JavaScript(JS)** | ⚙️ **C# & .NET** | 🤖 **AI/ML**
 
 ---
+
 
 ## 🎯 Objective
 
@@ -73,7 +74,7 @@ Each day I will:
 2. Build and test the project
 3. Add a `README.md` inside that folder
 4. Commit and push to GitHub
-5. Share progress on [LinkedIn](https://www.linkedin.com/in/vuppaladhadium-sai-samarth-saketh-036679201/)
+5. Share progress on  [LinkedIn](https://www.linkedin.com/in/vuppaladhadium-sai-samarth-saketh-036679201/) Platform
 
 ---
 
@@ -93,6 +94,7 @@ Each day I will:
 
 This repo will be updated daily with cool, practical, and open-source-friendly projects!  
 Let’s build something amazing — one project at a time. 💪🔥
+
 
 
 
