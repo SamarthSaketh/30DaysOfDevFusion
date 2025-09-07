@@ -60,7 +60,11 @@ It is **interactive, visually appealing**, and supports **dark/light mode**, **r
 
 
 
-[![View on LinkedIn](https://img.shields.io/badge/View%20on%20LinkedIn-%230077B5.svg?style=for-the-badge\&logo=linkedin\&logoColor=white)]()
+https://github.com/user-attachments/assets/aa5cd7f7-a62e-40b7-8967-947ccf99f37f
 
----
+
+
+[![View on LinkedIn](https://img.shields.io/badge/View%20on%20LinkedIn-%230077B5.svg?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/posts/vuppaladhadium-sai-samarth-saketh-036679201_30daysofdevfusion-fullstack-reactjs-activity-7370524323876409344-67nf?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOIy-oB5VvUIX7e3yGzeHJf-_xkXM2ZAqA)
+
+
 
