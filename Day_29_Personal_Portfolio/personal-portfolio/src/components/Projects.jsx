@@ -38,15 +38,15 @@ const projectsData = [
     description:
       "Library Management System – Developed a desktop app using Python and Tkinter to manage books, members, and due dates with features like issuing/returning books and real-time updates. Implemented basic data persistence using file handling/MongoDB.",
     tech: ["Python", "Tkinter", "MongoDB"],
-    link: "https://github.com/yourusername/studysync",
+    link: "https://github.com/SamarthSaketh/University_Projects/tree/main/Library%20Management%20System",
     source: "University",
   },
   {
     title: "Registration Form",
     description:
       "Registration Form – Built a responsive user registration system using HTML, CSS, and Node.js, with data securely stored in MongoDB for efficient user management.",
-    tech: ["HTML", "CSS", "Node.js", "MongoDB","SocketIO"],
-    link: "https://github.com/yourusername/portfolio",
+    tech: ["HTML", "CSS", "Node.js", "MongoDB"],
+    link: "https://github.com/SamarthSaketh/Bharat-Intern/tree/main/Registration_Form",
     source: "Bharat Intern",
   },
   {
@@ -54,15 +54,15 @@ const projectsData = [
     description:
       "Money Tracker App – Developed a web application using HTML, CSS, Node.js, and MongoDB to manage expenses and income, featuring budget tracking and financial insights for better money management.",
     tech: ["HTML", "CSS", "Node.js", "MongoDB"],
-    link: "https://github.com/yourusername/task-manager",
+    link: "https://github.com/SamarthSaketh/Bharat-Intern/tree/main/Money_Tracker_App",
     source: "Bharat Intern",
   },
   {
-    title: "CRUD Blog Website",
+    title: "Blog Website",
     description:
       "Blog Website – Designed and developed a dynamic blogging platform using HTML, CSS, Node.js, and MongoDB, enabling users to read, write, and manage posts with secure data storage.",
     tech: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB","Express"],
-    link: " ",
+    link: "https://github.com/SamarthSaketh/Bharat-Intern/tree/main/Blog_Website",
     source: "Bharat Intern",
   },
   {
@@ -70,7 +70,7 @@ const projectsData = [
     description:
       "Designed a responsive frontend interface using HTML, CSS, and JavaScript, allowing users to customize burgers and view their selections in real time for an interactive user experience.",
     tech: ["HTML", "CSS", "JavaScript"],
-    link: " ",
+    link: "https://github.com/SamarthSaketh/Exposys-Data-Labs/tree/main/Burger_Customize",
     source: "Exposys Data Labs",
   },
   {
@@ -78,15 +78,15 @@ const projectsData = [
     description:
       "Created a network monitoring tool to detect and track potential DDoS attacks, featuring real-time data visualization and storage for analysis.",
     tech: ["HTML", "CSS", "JavaScript"],
-    link: "",
+    link: "https://github.com/SamarthSaketh/Exposys-Data-Labs/tree/main/DDOS_Monitor",
     source: "Exposys Data Labs",
   },
   {
-    title: "Blog Application",
+    title: "CRUD Blog Application",
     description:
       "Built a dynamic platform for creating, editing, and managing blog posts, with an integrated feature to export posts as PDFs for easy sharing and offline access.",
     tech: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB","Express"],
-    link: " ",
+    link: "https://github.com/SamarthSaketh/Exposys-Data-Labs/tree/main/CRUD_Blog",
     source: "Exposys Data Labs",
   },
   {

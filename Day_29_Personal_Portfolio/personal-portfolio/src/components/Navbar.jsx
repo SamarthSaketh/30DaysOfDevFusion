@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Nav, Navbar as BootstrapNavbar } from "react-bootstrap";
-import "./ThemeToggle.css";
+import "./Navbar.css";
 
 function Navbar() {
   const [darkMode, setDarkMode] = useState(false);
