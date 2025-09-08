@@ -1,3 +1,8 @@
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ===== About Section ===== */
 .about-section {
   background-color: inherit;
   color: inherit;
@@ -5,21 +10,20 @@
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Unique Titles */
+/* Titles */
 .about-title {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 40px;
-  color: inherit;
 }
 
 .education-title {
   text-align: center;
   font-size: 1.8rem;
   margin-bottom: 30px;
-  color: inherit;
 }
 
+/* Profile Image */
 .profile-img {
   width: 180px;
   height: 180px;
@@ -28,10 +32,10 @@
   transition: border-color 0.3s ease;
 }
 
+/* About Text */
 .about-text {
   font-size: 1.1rem;
   line-height: 1.7;
-  color: inherit;
 }
 
 .highlight {
@@ -40,25 +44,47 @@
   transition: color 0.3s ease;
 }
 
-body.dark-mode .about-section .highlight {
+body.dark-mode .highlight {
   color: #66ccff;
 }
 
-.btn-primary {
+/* Buttons */
+.btn-group-resp {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.btn-primary,
+.btn-outline-secondary {
   padding: 10px 20px;
   font-size: 1rem;
+  flex: 1 1 auto;
+  min-width: 150px;
+  text-align: center;
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
-body.dark-mode .about-section .btn-primary {
+body.dark-mode .btn-primary {
   background-color: #333;
   color: #fff;
   border-color: #555;
 }
 
-body.light-mode .about-section .btn-primary {
+body.light-mode .btn-primary {
   background-color: #007bff;
   color: #fff;
+  border-color: #007bff;
+}
+
+body.dark-mode .btn-outline-secondary {
+  color: #fff;
+  border-color: #888;
+}
+
+body.light-mode .btn-outline-secondary {
+  color: #007bff;
   border-color: #007bff;
 }
 
@@ -79,6 +105,7 @@ body.light-mode .about-section .btn-primary {
   width: 4px;
   background: linear-gradient(to bottom, #007bff, #6610f2);
   border-radius: 2px;
+  z-index: 0;
 }
 
 .timeline-item {
@@ -86,7 +113,7 @@ body.light-mode .about-section .btn-primary {
   width: 50%;
   padding: 20px 30px;
   box-sizing: border-box;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .timeline-item:nth-child(odd) {
@@ -141,7 +168,6 @@ body.light-mode .about-section .btn-primary {
 .timeline-content h5 {
   margin: 0;
   font-weight: 600;
-  color: inherit;
 }
 
 .timeline-content p,
@@ -149,10 +175,9 @@ body.light-mode .about-section .btn-primary {
 .timeline-content .timeline-grade {
   margin: 3px 0;
   font-size: 0.9rem;
-  color: inherit;
 }
 
-/* Dark Mode */
+/* Dark Mode Timeline */
 body.dark-mode .education-timeline::before {
   background: linear-gradient(to bottom, #66ccff, #6610f2);
 }
@@ -165,29 +190,66 @@ body.dark-mode .timeline-content {
   background-color: rgba(102, 204, 255, 0.1);
 }
 
-body.dark-mode .timeline-content .timeline-year,
-body.dark-mode .timeline-content .timeline-grade {
+body.dark-mode .timeline-content p {
   color: #a0cfff;
 }
 
-/* Responsive */
+/* Responsive Adjustments */
+@media (max-width: 1200px) {
+  .about-text {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .btn-group-resp {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
 @media (max-width: 768px) {
-  .timeline-item,
-  .timeline-item:nth-child(even),
-  .timeline-item:nth-child(odd) {
-    width: 100%;
-    left: 0 !important;
-    text-align: left;
-    padding-left: 50px;
-    margin-bottom: 25px;
+  .timeline-item {
+    padding: 15px 20px;
+  }
+
+  .timeline-content {
+    font-size: 0.95rem;
   }
 
   .timeline-dot {
-    left: -12px !important;
-    right: auto !important;
+    width: 16px;
+    height: 16px;
+  }
+}
+
+/* Small Mobile: Maintain zigzag, line stays between items */
+@media (max-width: 576px) {
+  .timeline-item {
+    width: 48%;
+    padding: 10px;
+  }
+
+  .timeline-item:nth-child(odd) {
+    left: 0;
+    text-align: right;
+  }
+
+  .timeline-item:nth-child(even) {
+    left: 52%;
+    text-align: left;
+  }
+
+  .timeline-dot {
+    top: 20px;
+  }
+
+  .timeline-content {
+    padding: 10px;
   }
 
   .education-timeline::before {
-    left: 20px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }

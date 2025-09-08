@@ -1,0 +1,251 @@
+/* Footer Section */
+.footer {
+  background: var(--footer-bg, #f9f9f9);
+  color: var(--footer-text, #222);
+  padding: 2rem 1rem 1rem;
+  transition: background 0.3s, color 0.3s;
+  text-align: center;
+}
+
+body.dark-mode .footer {
+  --footer-bg: #121212;
+  --footer-text: #fff;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Brand */
+.footer-brand .brand-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--footer-text);
+  margin-bottom: 0.4rem;
+}
+
+.footer-brand .brand-tagline {
+  font-size: 0.9rem;
+  color: var(--footer-subtext, #666);
+}
+
+body.dark-mode .footer-brand .brand-tagline {
+  --footer-subtext: #bbb;
+}
+
+/* Footer Links */
+.footer-links {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: var(--footer-text);
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #7f3fbf;
+}
+
+/* Social Icons */
+.footer-socials {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.footer-socials a {
+  color: var(--footer-text);
+  font-size: 1.4rem;
+  transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.footer-socials a:hover {
+  color: #7f3fbf;
+  transform: scale(1.1);
+}
+
+/* Bottom Section */
+.footer-bottom {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+  color: var(--footer-subtext, #666);
+}
+
+body.dark-mode .footer-bottom {
+  border-color: rgba(255, 255, 255, 0.1);
+  --footer-subtext: #bbb;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-links {
+    gap: 1rem;
+  }
+
+  .footer-socials a {
+    font-size: 1.2rem;
+  }
+}
+/* Footer Section */
+.footer {
+  background: var(--footer-bg, #f9f9f9);
+  color: var(--footer-text, #222);
+  padding: 2rem 1rem 1rem;
+  transition: background 0.3s, color 0.3s;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+body.dark-mode .footer {
+  --footer-bg: #121212;
+  --footer-text: #fff;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.8rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Brand */
+.footer-brand .brand-name {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: var(--footer-text);
+  margin-bottom: 0.4rem;
+}
+
+.footer-brand .brand-tagline {
+  font-size: 1rem;
+  color: var(--footer-subtext, #666);
+}
+
+body.dark-mode .footer-brand .brand-tagline {
+  --footer-subtext: #bbb;
+}
+
+/* Footer Links */
+.footer-links {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: var(--footer-text);
+  font-weight: 500;
+  transition: color 0.3s ease;
+  position: relative;
+}
+
+.footer-links a:hover {
+  color: #7f3fbf;
+}
+
+/* Social Icons Container */
+.footer-socials {
+  display: flex;
+  gap: 1.8rem;
+  justify-content: center;
+  position: relative;
+}
+
+/* Social Icon */
+.social-icon {
+  color: var(--footer-text);
+  font-size: 1.6rem;
+  transition: transform 0.25s ease, color 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.social-icon:hover {
+  color: #7f3fbf;
+  transform: scale(1.2);
+}
+
+/* Tooltip Styling */
+.tooltip-container {
+  position: relative;
+}
+
+.tooltip {
+  visibility: hidden;
+  opacity: 0;
+  background: #7f3fbf;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 6px 10px;
+  position: absolute;
+  bottom: 130%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.8rem;
+  white-space: nowrap;
+  pointer-events: none;
+  transition: opacity 0.3s ease, bottom 0.3s ease;
+  z-index: 100;
+}
+
+.tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 6px;
+  border-style: solid;
+  border-color: #7f3fbf transparent transparent transparent;
+}
+
+.tooltip-container:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  bottom: 140%;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+  color: var(--footer-subtext, #666);
+}
+
+body.dark-mode .footer-bottom {
+  border-color: rgba(255, 255, 255, 0.1);
+  --footer-subtext: #bbb;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-links {
+    gap: 1rem;
+  }
+
+  .footer-socials {
+    gap: 1.2rem;
+  }
+
+  .social-icon {
+    font-size: 1.4rem;
+  }
+}

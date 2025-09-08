@@ -6,20 +6,23 @@ import { FaDownload, FaEye } from "react-icons/fa";
 function About() {
   const educationData = [
     {
-      degree: "Bachelor of Technology in Computer Science and Engineering",
-      institution: "Sri Chandrasekharendra Saraswathi Viswa Mahavidyalaya (SCSVMV), Enathur, Kanchipuram, Tamil Nadu",
+      degree: "B.Tech (CSE)",
+      institution:
+        "SCSVMV University, Enathur, Kanchipuram, Tamil Nadu",
       year: "2021 - 2025",
       grade: "CGPA: 8.7",
     },
     {
       degree: "Intermediate (12th Grade)",
-      institution: "Krishna Teja Junior College, Renigunta, Tirupati, Andhra Pradesh",
+      institution:
+        "Krishna Teja Junior College, Renigunta, Tirupati, Andhra Pradesh",
       year: "2019 - 2021",
       grade: "Percentage: 69%",
     },
     {
       degree: "10th Grade",
-      institution: "Maharishi Vidyanikethan High School, Kadapa, Andhra Pradesh",
+      institution:
+        "Maharishi Vidyanikethan High School, Kadapa, Andhra Pradesh",
       year: "2018 - 2019",
       grade: "Percentage: 97%",
     },
@@ -31,29 +34,29 @@ function About() {
         <h2 className="about-title">About Me</h2>
 
         <div className="about-content row align-items-center">
-          <div className="col-md-4 text-center">
+          <div className="col-lg-4 col-md-12 text-center mb-4 mb-lg-0">
             <img
               src={profileImg}
               alt="Saketh Profile"
               className="profile-img img-fluid rounded-circle shadow"
             />
           </div>
-          <div className="col-md-8">
+          <div className="col-lg-8 col-md-12">
             <p className="about-text">
               Hi, I'm <strong>Vuppaladhadium Sai Samarth Saketh</strong>, a passionate
-              <span className="highlight"> Full Stack Developer</span> and 
+              <span className="highlight"> Full Stack Developer</span> and
               <span className="highlight"> Python Enthusiast</span>. I love creating web
               applications, exploring new technologies, and solving challenging problems.
             </p>
             <p className="about-text">
-              My journey in tech started with curiosity, and now I focus on building scalable, 
+              My journey in tech started with curiosity, and now I focus on building scalable,
               user-friendly solutions while continuously learning and improving my skills.
             </p>
 
-            <div className="mt-3 mb-4">
+            <div className="btn-group-resp mt-3 mb-4">
               <a
                 href="/resume.pdf"
-                className="btn btn-primary me-2"
+                className="btn btn-primary"
                 download="Vuppaladhadium_Sai_Samarth_Saketh_CV.pdf"
               >
                 <FaDownload className="me-2" /> Download Resume
@@ -71,7 +74,7 @@ function About() {
         </div>
 
         {/* Education Timeline */}
-        <h3 className="education-title text-center">Education</h3>
+        <h3 className="education-title text-center mt-5">Education</h3>
         <div className="education-timeline mt-5">
           {educationData.map((edu, index) => (
             <div className="timeline-item" key={index}>

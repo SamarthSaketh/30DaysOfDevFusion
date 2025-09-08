@@ -1,3 +1,4 @@
+/* ===== Skills Section ===== */
 .skills-section {
   padding: 40px 20px 30px;
   text-align: center;
@@ -39,19 +40,27 @@
   border-radius: 2px;
 }
 
+/* ===== Horizontal Scrolling ===== */
 .scroll-wrapper {
   overflow: hidden;
   width: 100%;
   position: relative;
 }
 
-.scroll-track {
+.scroll-inner {
   display: flex;
+  flex-wrap: nowrap;
   gap: 30px;
-  animation: scroll-horizontal 6s linear infinite;
-  will-change: transform;
+  animation: scroll-horizontal 3s linear infinite;
 }
 
+/* Duplicate items inside JSX for continuous scroll */
+@keyframes scroll-horizontal {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Each skill item */
 .scroll-item {
   display: flex;
   flex-direction: column;
@@ -59,8 +68,6 @@
   min-width: 90px;
   cursor: pointer;
   transition: transform 0.3s ease;
-  margin: 0;
-  padding: 0;
 }
 
 .scroll-item:hover {
@@ -79,8 +86,8 @@
 .skill-svg {
   width: 100%;
   height: 100%;
-  transition: transform 0.3s ease, filter 0.3s ease;
   pointer-events: none;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 .scroll-item:hover .skill-svg {
@@ -96,11 +103,7 @@
   white-space: nowrap;
 }
 
-@keyframes scroll-horizontal {
-  0% { transform: translate3d(0, 0, 0); }
-  100% { transform: translate3d(-50%, 0, 0); }
-}
-
+/* ===== Skills Progress Bars ===== */
 .skills-progress {
   margin-top: 10px;
   max-width: 700px;
@@ -143,7 +146,7 @@
   transition: width 1.2s ease-in-out;
 }
 
-/* Dark mode */
+/* ===== Dark Mode ===== */
 body.dark-mode .skills-section {
   color: #f5f5f5;
 }
@@ -164,7 +167,7 @@ body.dark-mode .category-heading::before {
   background: linear-gradient(180deg, #66ccff, #0d6efd);
 }
 
-/* Responsive */
+/* ===== Responsive ===== */
 @media (max-width: 768px) {
   .skills-title { font-size: 1.75rem; }
   .category-heading { font-size: 1.2rem; }
@@ -177,6 +180,6 @@ body.dark-mode .category-heading::before {
 @media (max-width: 480px) {
   .skills-title { font-size: 1.5rem; }
   .category-heading { font-size: 1.1rem; }
-  .scroll-track { gap: 25px; }
+  .scroll-inner { gap: 25px; }
   .progress-label { font-size: 0.85rem; }
 }

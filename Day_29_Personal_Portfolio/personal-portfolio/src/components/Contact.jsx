@@ -1,43 +1,80 @@
 import React from "react";
+import { useForm, ValidationError } from "@formspree/react";
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 import "./Contact.css";
 
-const Contact = () => {
+function Contact() {
+  const [state, handleSubmit] = useForm("mldwavww"); // <-- Your Formspree ID
+
   return (
     <section id="contact" className="contact-section">
       <div className="contact-container">
         <h2 className="contact-title">Contact Me</h2>
-        <p className="contact-subtitle">
-          Reach out via email, phone, or see my location on the map.
-        </p>
+        <p className="contact-subtitle">I'd love to hear from you! Reach out below.</p>
 
-        <div className="contact-content">
+        <div className="contact-grid">
+          {/* Contact Information */}
           <div className="contact-info">
-            <p><FaEnvelope className="contact-icon" /> 
-              <a href="mailto:samarthsaketh@outlook.com">samarthsaketh@outlook.com</a>
-            </p>
-            <p><FaPhone className="contact-icon" /> 
-              <a href="tel:+917207300329">+91 72073 00329</a>
-            </p>
-            <p><FaMapMarkerAlt className="contact-icon" /> Kadapa, Andhra Pradesh, India - 516002</p>
+            <div className="info-item">
+              <FaEnvelope className="info-icon" />
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:samarthsaketh@outlook.com">samarthsaketh@outlook.com</a>
+              </div>
+            </div>
+
+            <div className="info-item">
+              <FaPhone className="info-icon" />
+              <div>
+                <h4>Phone</h4>
+                <a href="tel:+917207300329">+91 72073 00329</a>
+              </div>
+            </div>
+
+            <div className="info-item">
+              <FaMapMarkerAlt className="info-icon" />
+              <div>
+                <h4>Location</h4>
+                <p>Kadapa, Andhra Pradesh, India</p>
+              </div>
+            </div>
           </div>
 
-          <div className="contact-map">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d608.4174844751395!2d78.8374145573595!3d14.47261183082794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTTCsDI4JzIxLjYiTiA3OMKwNTAnMTYuMiJF!5e0!3m2!1sen!2sin!4v1757268324388!5m2!1sen!2sin"
-              width="100%"
-              height="300"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="My House Location"
-            ></iframe>
+          {/* Contact Form */}
+          <div className="contact-form-wrapper">
+            {state.succeeded ? (
+              <p className="success-message">
+                🎉 Thank you for reaching out! I'll get back to you soon.
+              </p>
+            ) : (
+              <form onSubmit={handleSubmit} className="contact-form">
+                <div className="form-group">
+                  <label htmlFor="name">Name</label>
+                  <input type="text" id="name" name="name" required placeholder="Your name" />
+                </div>
+
+                <div className="form-group">
+                  <label htmlFor="email">Email Address</label>
+                  <input type="email" id="email" name="email" required placeholder="you@example.com" />
+                  <ValidationError prefix="Email" field="email" errors={state.errors} />
+                </div>
+
+                <div className="form-group">
+                  <label htmlFor="message">Message</label>
+                  <textarea id="message" name="message" required placeholder="Your message"></textarea>
+                  <ValidationError prefix="Message" field="message" errors={state.errors} />
+                </div>
+
+                <button type="submit" disabled={state.submitting} className="submit-btn">
+                  {state.submitting ? "Sending..." : "Send Message"}
+                </button>
+              </form>
+            )}
           </div>
         </div>
       </div>
     </section>
   );
-};
+}
 
 export default Contact;

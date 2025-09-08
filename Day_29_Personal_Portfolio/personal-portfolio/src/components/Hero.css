@@ -1,0 +1,92 @@
+/* ===== Body Theme Transition ===== */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ===== Hero Section ===== */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem 1rem;
+  color: inherit;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* ----- Hero Heading ----- */
+.hero-heading {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  line-height: 1.4;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+/* ----- Waving Hand Emoji ----- */
+.wave-hand {
+  display: inline-block;
+  font-size: 2rem;
+  transform-origin: 70% 70%;
+  animation: wave 1.5s infinite;
+}
+
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  15% { transform: rotate(14deg); }
+  30% { transform: rotate(-8deg); }
+  40% { transform: rotate(14deg); }
+  50% { transform: rotate(-4deg); }
+  60% { transform: rotate(10deg); }
+  70% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+/* ----- Gradient Text ----- */
+.name-text, .typed-text {
+  background: linear-gradient(270deg, #ff6a00, #ee0979, #2575fc, #6a11cb, #ff6a00);
+  background-size: 600% 600%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-weight: 800;
+  animation: gradientFlow 6s ease infinite;
+}
+
+@keyframes gradientFlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ----- Typing Text ----- */
+.typing-article {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* ===== Responsive Adjustments ===== */
+@media (min-width: 768px) {
+  .hero-heading { font-size: 2rem; }
+  .name-text { font-size: 2rem; }
+  .typed-text { font-size: 1.5rem; }
+  .wave-hand { font-size: 2.5rem; }
+}
+
+@media (max-width: 480px) {
+  .hero-heading { font-size: 1.4rem; }
+  .name-text { font-size: 1.5rem; }
+  .typed-text { font-size: 1rem; }
+  .wave-hand { font-size: 2rem; }
+}

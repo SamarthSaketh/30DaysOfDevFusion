@@ -16,7 +16,7 @@ const certifications = [
     date: "February 2024",
     credentialId: "d23docc984f501d20970f36f98f847ff4bcc8f5433795260e89b5c44c12a5dab",
     credentialUrl:
-      "https://www.linkedin.com/learning/certificates/d23d0cc984f501d20970f36f98f847ff4bcc8f5433795260e89b5c44c12a5dab?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BeOgabl3fTkCahTC%2F3Yjc2Q%3D%3D",
+      "https://www.linkedin.com/learning/certificates/d23d0cc984f501d20970f36f98f847ff4bcc8f5433795260e89b5c44c12a5dab",
     logo: "/icons/linkedin.svg",
   },
   {
@@ -32,33 +32,24 @@ const certifications = [
     organization: "FreeCodeCamp & Microsoft",
     date: "February 2025",
     credentialId: "NA",
-    credentialUrl:
-      "https://www.freecodecamp.org/certification/vuppaladhadium_sai_samarth_saketh/foundational-c-sharp-with-microsoft",
-    logos: [
-      "/icons/freecodecamp.svg",
-      "/icons/microsoft.svg",
-    ],
+    credentialUrl: "https://www.freecodecamp.org/certification/vuppaladhadium_sai_samarth_saketh/foundational-c-sharp-with-microsoft",
+    logos: ["/icons/freecodecamp.svg","/icons/microsoft.svg"],
   },
   {
     title: "Prompt Design in Vertex AI Skill Badge",
     organization: "Google",
     date: "April 2025",   
     credentialId: "NA",
-    credentialUrl:
-      "https://www.credly.com/badges/ecd5cdc4-ac26-45d1-b5da-440d675b2e65",
+    credentialUrl: "https://www.credly.com/badges/ecd5cdc4-ac26-45d1-b5da-440d675b2e65",
     logo: "/icons/google.svg",
   },
-    {
+  {
     title: "Crash Course on Python",
     organization: "Coursera & Google",
     date: "April 2025",
     credentialId: "R7V0KCCH4V3T",
-    credentialUrl:
-      "https://www.coursera.org/account/accomplishments/verify/R7V0KCCH4V3T",
-    logos: [
-      "/icons/coursera.svg",
-      "/icons/google.svg",
-    ],
+    credentialUrl: "https://www.coursera.org/account/accomplishments/verify/R7V0KCCH4V3T",
+    logos: ["/icons/coursera.svg","/icons/google.svg"],
   },
   {
     title: "Programming with JavaScript",
@@ -66,23 +57,23 @@ const certifications = [
     date: "May 2025",
     credentialId: "UCOA7ZX9IZ1V",
     credentialUrl: "https://coursera.org/verify/UCOA7ZX9IZ1V",
-    logos: ["/icons/coursera.svg", "/icons/meta.svg"],
+    logos: ["/icons/coursera.svg","/icons/meta.svg"],
   },
-      {
+  {
     title: "Google Prompting Essentials",
     organization: "Coursera & Google",
     date: "May 2025",
     credentialId: "7KCBFZT7WWIO",
     credentialUrl: "https://coursera.org/verify/7KCBFZT7WWIO",
-    logos: ["/icons/coursera.svg", "/icons/google.svg"],
+    logos: ["/icons/coursera.svg","/icons/google.svg"],
   },
-      {
+  {
     title: "Google AI Essentials",
     organization: "Coursera & Google",
     date: "May 2025",
     credentialId: "4DSB6OZIKEWC",
     credentialUrl: "https://coursera.org/verify/4DSB6OZIKEWC",
-    logos: ["/icons/coursera.svg", "/icons/google.svg"],
+    logos: ["/icons/coursera.svg","/icons/google.svg"],
   },
 ];
 
@@ -90,7 +81,7 @@ function Certifications() {
   return (
     <section id="certifications" className="certifications-section">
       <div className="container">
-        <h2 className="certificate-title">Certifications</h2>
+        <h2 className="certificate-title">Certifications & Badges</h2>
         <div className="certifications-grid">
           {certifications.map((cert, index) => (
             <div key={index} className="cert-card">
@@ -109,22 +100,13 @@ function Certifications() {
               <div className="cert-info">
                 <h3 className="cert-title">{cert.title}</h3>
                 <p className="cert-organization">{cert.organization}</p>
-                <p className="cert-date">
-                  <strong>Issued:</strong> {cert.date}
-                </p>
-                <p className="cert-id">
-                  <strong>Credential ID:</strong> {cert.credentialId}
-                </p>
+                <p className="cert-date"><strong>Issued:</strong> {cert.date}</p>
+                <p className="cert-id"><strong>Credential ID:</strong> {cert.credentialId}</p>
               </div>
 
               {/* Credential Link */}
               {cert.credentialUrl && (
-                <a
-                  href={cert.credentialUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="cert-link"
-                >
+                <a href={cert.credentialUrl} target="_blank" rel="noopener noreferrer" className="cert-link">
                   View Certificate
                 </a>
               )}

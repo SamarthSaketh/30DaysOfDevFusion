@@ -28,18 +28,13 @@ function Skills() {
 
   const skillCategories = [
     {
-      category: "Frontend",
+      category: "Frontend & Backend ",
       items: [
         { name: "HTML", svg: "/icons/html.svg", color: "#E34F26" },
         { name: "CSS", svg: "/icons/css.svg", color: "#1572B6" },
         { name: "JavaScript", svg: "/icons/javascript.svg", color: "#F7DF1E" },
         { name: "React", svg: "/icons/react.svg", color: "#61DAFB" },
         { name: "Bootstrap", svg: "/icons/bootstrap.svg", color: "#7952B3" },
-      ],
-    },
-    {
-      category: "Backend",
-      items: [
         { name: "Python", svg: "/icons/python.svg", color: "#3776AB" },
         { name: "Node.js", svg: "/icons/nodejs.svg", color: "#339933" },
         { name: "Django", svg: "/icons/django.svg", color: "#092E20" },
@@ -72,9 +67,9 @@ function Skills() {
     { name: "Visual Studio", level: 75, color: "#5C2D91" },
     { name: "Python", level: 70, color: "#3776AB" },
     { name: "MongoDB", level: 70, color: "#47A248" },
-    { name: "Node.js", level: 65, color: "#339933" },
-    { name: "C#", level: 60, color: "#9B4F96" },
-    { name: ".NET", level: 55, color: "#512BD4" },
+    { name: "Node.js", level: 70, color: "#339933" },
+    { name: "C#", level: 70, color: "#9B4F96" },
+    { name: ".NET", level: 70, color: "#512BD4" },
   ];
 
   return (
@@ -86,9 +81,19 @@ function Skills() {
           <div key={index} className="skill-category-wrapper">
             <h3 className="category-heading">{group.category}</h3>
             <div className="scroll-wrapper">
-              <div className="scroll-track">
-                {[...group.items, ...group.items].map((skill, idx) => (
-                  <div key={idx} className="scroll-item">
+              <div className="scroll-inner">
+                {/* First set of items */}
+                {group.items.map((skill, idx) => (
+                  <div key={`first-${idx}`} className="scroll-item">
+                    <div className="icon-wrapper" style={{ color: skill.color }}>
+                      <img src={skill.svg} alt={skill.name} className="skill-svg" />
+                    </div>
+                    <p className="skill-name">{skill.name}</p>
+                  </div>
+                ))}
+                {/* Duplicate set for seamless loop */}
+                {group.items.map((skill, idx) => (
+                  <div key={`second-${idx}`} className="scroll-item">
                     <div className="icon-wrapper" style={{ color: skill.color }}>
                       <img src={skill.svg} alt={skill.name} className="skill-svg" />
                     </div>

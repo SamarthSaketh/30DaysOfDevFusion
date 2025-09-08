@@ -22,6 +22,7 @@ const techColors = {
   "C#": "#9B4F96",
   SocketIO: "#010101",
   Keras: "#D00000",
+  Vite: "#646CFF",
 };
 
 const sourceColors = {
@@ -95,6 +96,14 @@ const projectsData = [
     tech:["HTML","CSS","Python","Django","TensorFlow","Keras"],
     link:"",
     source:"University"
+  },
+    {
+    title:"30 Days of DevFusion",
+    description:
+      "30 Days Dev Fusion – A 30-day intensive development challenge where I built multiple real-world projects to strengthen my full-stack development skills, including frontend, backend, and database integration. The projects focused on responsive design, interactivity, and practical problem-solving.",
+    tech: ["HTML", "CSS", "JavaScript", "React", "Vite", "Bootstrap", "Python", "Node.js", "Django", ".NET", "C#",  "MongoDB", "Git", "GitHub",  "VS Code", ],
+    link:"https://github.com/SamarthSaketh/30DaysOfDevFusion",
+    source:"Personal"
   }
 ];
 

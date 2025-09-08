@@ -56,55 +56,50 @@
   transform: translateY(-50%);
   z-index: 2;
 
-  /* Glowing animation */
-  box-shadow: 0 0 8px #007bff, 0 0 12px #6610f2;
-  animation: glow 1.5s infinite alternate;
+  /* Initial subtle shadow */
+  box-shadow: 0 0 3px rgba(0, 123, 255, 0.5), 0 0 6px rgba(102, 16, 242, 0.5);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-/* Keyframes for continuous glow */
-@keyframes glow {
-  0% {
-    box-shadow: 0 0 5px #007bff, 0 0 10px #6610f2;
-  }
-  50% {
-    box-shadow: 0 0 12px #007bff, 0 0 18px #6610f2;
-  }
-  100% {
-    box-shadow: 0 0 5px #007bff, 0 0 10px #6610f2;
-  }
+/* Glow and enlarge when hovering the card */
+.experience-item:hover .experience-dot {
+  box-shadow: 0 0 12px #007bff, 0 0 18px #6610f2, 0 0 24px #0d6efd;
+  transform: translateY(-50%) scale(1.3);
 }
-
 
 /* Zigzag content */
 .experience-item.top .experience-content {
   position: absolute;
   bottom: 100%;
-  margin-bottom: 20px; /* reduced margin */
+  margin-bottom: 20px; 
 }
 
 .experience-item.bottom .experience-content {
   position: absolute;
   top: 100%;
-  margin-top: 20px; /* reduced margin */
+  margin-top: 20px;
 }
 
 /* Card style */
 .experience-content {
-  background-color: rgba(0,123,255,0.1);
+  background-color: rgba(36, 4, 97, 0.1);
   border-radius: 10px;
-  padding: 12px 15px; /* reduced padding */
+  padding: 12px 15px;
   text-align: center;
-  width: 320px; /* reduced width */
-  position: relative; /* needed for red dot */
+  width: 320px;
+  position: relative;
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
+/* Hover effect for card */
 .experience-item:hover .experience-content {
   background-color: rgba(0,123,255,0.15);
   box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+  transform: translateY(-5%) scale(1.05);
+
 }
 
-/* Red dot for current working role */
+
 .experience-content.present::after {
   content: '';
   position: absolute;
@@ -112,11 +107,38 @@
   right: 8px;
   width: 12px;
   height: 12px;
-  background-color: red;
+  background: linear-gradient(45deg, #e42904, #db3d03);
   border-radius: 50%;
   border: 2px solid #fff;
   z-index: 3;
+
+  /* Glowing and pulsing effect */
+  box-shadow: 0 0 6px #e42904, 0 0 12px #db3d03, 0 0 18px #ff4500;
+  animation: glowPulse 1.5s infinite alternate;
 }
+
+/* Keyframes for smooth glow and pulse */
+@keyframes glowPulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 4px #e42904, 0 0 8px #db3d03, 0 0 12px #ff4500;
+  }
+  50% {
+    transform: scale(1.4);
+    box-shadow: 0 0 10px #e42904, 0 0 16px #db3d03, 0 0 22px #ff4500;
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 4px #e42904, 0 0 8px #db3d03, 0 0 12px #ff4500;
+  }
+}
+
+/* Dark mode adjustments (optional if background is dark) */
+body.dark-mode .experience-content.present::after {
+  background: linear-gradient(45deg, #ff6b6b, #ff4d4d);
+  box-shadow: 0 0 6px #ff6b6b, 0 0 12px #ff4d4d, 0 0 18px #ff7f50;
+}
+
 
 .experience-content h5 {
   margin-bottom: 5px;
