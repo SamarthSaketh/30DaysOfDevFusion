@@ -229,7 +229,7 @@ export default function App() {
         <Group spacing="md" align="center">
           <Stack spacing={0}>
             <Title order={2} style={{ marginBottom: rem(3), cursor: "default", letterSpacing: "-0.5px" }}>
-              🚀 DevFusion Projects Showcase
+               DevFusion Projects Showcase
             </Title>
             <Text size="md" color={dark ? "gray.4" : "gray.7"}>
               30 Days of DevFusion Journey 🌟
