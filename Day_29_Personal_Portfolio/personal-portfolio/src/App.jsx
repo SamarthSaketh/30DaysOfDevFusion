@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 
 import { useState, useEffect } from "react";
 import { FaArrowCircleUp } from "react-icons/fa"; 
+import { Analytics } from "@vercel/analytics/react";
 import "./App.css";
 
 // Scroll to Top Button
@@ -53,6 +54,7 @@ function App() {
       <Contact />
       <ScrollToTop />
       <Footer />
+      <Analytics />
     </>
   );
 }
