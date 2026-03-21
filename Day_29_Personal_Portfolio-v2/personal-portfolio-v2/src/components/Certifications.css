@@ -1,0 +1,101 @@
+/* ===== Certifications Section ===== */
+.certs-section {
+  padding: 6rem 0;
+  background: var(--bg-primary);
+}
+
+.certs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+/* ===== Cert Card ===== */
+.cert-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  text-decoration: none;
+  color: var(--text-primary);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  border-left: 3px solid var(--cert-color, var(--accent-1));
+}
+
+.cert-card:hover {
+  border-color: var(--cert-color, var(--accent-1));
+  box-shadow:
+    0 8px 30px rgba(0,0,0,0.12),
+    0 0 20px color-mix(in srgb, var(--cert-color, var(--accent-1)) 15%, transparent);
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+/* ===== Icon ===== */
+.cert-icon-wrap {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--cert-color, var(--accent-1)) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--cert-color, var(--accent-1)) 25%, transparent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.3s ease;
+}
+
+.cert-card:hover .cert-icon-wrap {
+  background: color-mix(in srgb, var(--cert-color, var(--accent-1)) 22%, transparent);
+}
+
+.cert-icon {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+}
+
+/* ===== Content ===== */
+.cert-content { flex: 1; min-width: 0; }
+
+.cert-title {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.4;
+  margin: 0 0 0.3rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cert-issuer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.cert-issuer svg { color: var(--cert-color, var(--accent-1)); flex-shrink: 0; }
+
+/* ===== External Link Icon ===== */
+.cert-ext {
+  color: var(--text-muted);
+  flex-shrink: 0;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.cert-card:hover .cert-ext {
+  color: var(--cert-color, var(--accent-1));
+  transform: translate(2px, -2px);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 900px) { .certs-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 540px) { .certs-grid { grid-template-columns: 1fr; } }

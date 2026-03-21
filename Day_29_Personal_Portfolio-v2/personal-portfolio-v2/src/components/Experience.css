@@ -1,0 +1,273 @@
+.experience-section { background: var(--surface); }
+
+/* Timeline */
+.exp-timeline {
+  position: relative;
+  padding-left: 44px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.exp-timeline::before {
+  content: '';
+  position: absolute;
+  left: 14px;
+  top: 20px;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(180deg, var(--gold) 0%, var(--blue) 50%, var(--border) 80%, transparent 100%);
+}
+
+/* Item */
+.exp-item {
+  position: relative;
+  padding-bottom: 36px;
+}
+.exp-item:last-child { padding-bottom: 0; }
+
+/* Dot */
+.exp-dot {
+  position: absolute;
+  left: -52px;
+  top: 18px;
+  width: 30px;
+  height: 30px;
+  background: var(--card);
+  border: 2px solid var(--border);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  transition: var(--transition);
+  z-index: 1;
+}
+
+.exp-dot.current {
+  border-color: var(--gold);
+  background: var(--gold-dim);
+  color: var(--gold);
+  box-shadow: 0 0 0 4px rgba(201, 151, 42, 0.12);
+  animation: dot-pulse 2.5s ease-in-out infinite;
+}
+
+@keyframes dot-pulse {
+  0%, 100% { box-shadow: 0 0 0 4px rgba(201, 151, 42, 0.12); }
+  50%       { box-shadow: 0 0 0 8px rgba(201, 151, 42, 0.04), 0 0 16px rgba(201, 151, 42, 0.3); }
+}
+
+.exp-item:hover .exp-dot {
+  border-color: var(--gold);
+  color: var(--gold-light);
+  transform: scale(1.15) rotate(-10deg);
+}
+
+/* Card — glassmorphism upgrade */
+.exp-card {
+  background: linear-gradient(135deg, var(--card) 70%, rgba(14, 30, 56, 0.5));
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 26px 30px;
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(4px);
+}
+
+/* Animated left accent bar */
+.exp-card::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--border);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Shimmer sweep on hover */
+.exp-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.03), transparent);
+  transition: left 0.6s ease;
+  pointer-events: none;
+}
+
+.exp-card:hover {
+  border-color: var(--gold-border);
+  transform: translateX(8px);
+  box-shadow: var(--shadow-gold), 0 20px 50px rgba(0,0,0,0.3);
+}
+
+.exp-card:hover::before {
+  background: linear-gradient(180deg, var(--gold), var(--gold-light));
+  box-shadow: 4px 0 16px rgba(201, 151, 42, 0.3);
+}
+
+.exp-card:hover::after { left: 150%; }
+
+.exp-card.current-card {
+  border-color: rgba(201, 151, 42, 0.2);
+  background: linear-gradient(135deg, var(--card) 60%, rgba(201, 151, 42, 0.05));
+}
+
+.exp-card.current-card::before {
+  background: linear-gradient(180deg, var(--gold), var(--gold-light));
+}
+
+/* Header */
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.exp-title {
+  font-family: var(--ff-display);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.exp-company {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--gold);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.exp-company::before {
+  content: '◆';
+  font-size: 0.5rem;
+  opacity: 0.6;
+}
+
+.exp-meta-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.exp-date {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.exp-badges {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.badge-current {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px;
+  background: rgba(34, 197, 94, 0.12);
+  color: #4ade80;
+  border: 1px solid rgba(34, 197, 94, 0.25);
+  border-radius: 20px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.pulse-dot {
+  width: 7px;
+  height: 7px;
+  background: #22c55e;
+  border-radius: 50%;
+  display: inline-block;
+  animation: pulse 1.8s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.6); }
+  50%       { box-shadow: 0 0 0 5px rgba(34, 197, 94, 0); }
+}
+
+.badge-mode {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.badge-mode.online  { background: rgba(74, 144, 217, 0.12); color: var(--blue-light); border: 1px solid rgba(74, 144, 217, 0.2); }
+.badge-mode.offline { background: var(--gold-dim);           color: var(--gold-light); border: 1px solid var(--gold-border); }
+
+/* Description */
+.exp-description {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+/* Tech tags — staggered entry animation */
+.exp-tech {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.exp-tech-tag {
+  padding: 4px 12px;
+  background: rgba(72, 120, 200, 0.1);
+  color: var(--blue-light);
+  border: 1px solid rgba(72, 120, 200, 0.18);
+  border-radius: 20px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.exp-tech-tag:hover {
+  background: rgba(72, 120, 200, 0.22);
+  border-color: rgba(72, 120, 200, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(72, 120, 200, 0.2);
+}
+
+@media (max-width: 600px) {
+  .exp-timeline        { padding-left: 30px; }
+  .exp-timeline::before{ left: 8px; }
+  .exp-dot             { left: -38px; width: 24px; height: 24px; }
+  .exp-header          { flex-direction: column; }
+  .exp-meta-right      { align-items: flex-start; }
+  .exp-card            { padding: 20px; }
+}
+
+@media (max-width: 480px) {
+  .exp-card   { padding: 16px; }
+  .exp-title  { font-size: 1rem; }
+  .exp-tech-tag { font-size: 0.68rem; padding: 3px 9px; }
+  .exp-badges { flex-wrap: wrap; }
+}
+
+@media (max-width: 360px) {
+  .exp-timeline  { padding-left: 24px; }
+  .exp-dot       { left: -32px; width: 20px; height: 20px; font-size: 0.75rem; }
+}
